@@ -1,0 +1,125 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+    <title>Hecho a mano.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+</head>
+
+
+<body>
+    <div class="gridHome">
+        <header>
+
+            <nav class="navbar">
+                <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+                <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+                    <span class="material-icons" style="font-size: 50px;">menu</span>
+                </button>
+                <a href="./index.html">
+                    <h1 class="navbar-title">Hecho a mano.</h1>
+                </a>
+                <nav class="navbar-menu">
+                    <a href="./section/sobremi.html">
+                        <button type="button" class="active">Sobre mi</button>
+                    </a>
+                    <a href="./section/trabajos.html">
+                        <button type="button" class="active">Trabajos</button>
+                    </a>
+                    <a href="./section/contacto.html">
+                        <button type="button" class="active">Contacto</button>
+                    </a>
+                </nav>
+            </nav>
+        </header>
+        <script type="text/javascript">
+            const toggleMenuOpen = () => {
+                document.body.classList.toggle("open");
+            };
+        </script>
+
+
+        <main>
+
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">Que es HAM?</h2>
+                    <p class="card-text"><b> Hecho a mano</b> es una forma de trabajar, respetar, dedicar y enfocar todo
+                        el potencial para elaborar
+                        piezas unicas en la piel de nuestros clientes.</p>
+                </div>
+            </div>
+
+            <div class="imgHam">
+                <img src="./img/logo.home.png" alt="logo Hecho a mano">
+            </div>
+                <div class="cardDos">
+                    <div class="card-body">
+                        <p class="segui">
+                            Segui navegando y descubri porque Hecho a mano es tu mejor elección para tu proximo tatuaje!
+                        </p>
+                        <button>
+                            <a class="anclaSegui" href="./section/sobremi.html">Seguir navegando</a>
+
+                        </button>
+                    </div>
+                </div>
+        </main>
+
+
+        <footer class="ftHome">
+
+            <div class="flexTextoFt">
+                <p class="textoFt">Copyrigth - todos los derechos reservados</p>
+                <p class="textoFt">Seguinos en nuestras redes:</p>
+            </div>
+
+            <div class="flexbotones">
+                <a href="https://www.instagram.com/hechoamanottt/" target="_blank">
+                    <img class="iconoFtHome" src="./img/logos/instagram.svg" alt="instagram">
+                </a>
+
+                <a href="
+                https://wa.me/+5401125204181?text=hola,%20somos%20Hecho%20a%20mano!%20en%20que%20podemos%20ayudarte
+                " target="_blank">
+                    <img class="iconoFtHome" src="./img/logos/whatsapp.svg" alt="whatsapp">
+                </a>
+
+                <a href="https://www.linkedin.com/in/franciscogaleano1/" target="_blank">
+                    <img class="iconoFtHome" src="./img/logos/linkedin.svg" alt="linkedin">
+                </a>
+
+            </div>
+        </footer>
+    </div>
+
+    <script>
+		ScrollReveal().reveal('.card')
+		ScrollReveal().reveal('.imgHam')
+		ScrollReveal().reveal('.cardDos') 
+
+	</script>
+
+
+    <!--Script de BST-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
