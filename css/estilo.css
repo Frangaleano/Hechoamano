@@ -1,5 +1,5 @@
 html {
-  scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 @media (min-width: 100px) {
