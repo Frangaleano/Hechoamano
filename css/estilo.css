@@ -2,281 +2,309 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (min-width: 100px) {
+
+  .gridHome {
+    display: grid;
+    grid-template-rows: 8% 95% 9%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
 
 
-.gridHome {
-  display: grid;
-  grid-template-rows: 8% 95% 9%;
+  body {
+    background: #3b3d43;
+  }
+
+  button {
+    border: 0;
+    padding: 0;
+    font-family: inherit;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .navbar {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 120px;
+    background: black;
+    color: #f9f9f9;
+    font-family: "Poppins";
+    box-sizing: border-box;
+  }
+
+  .navbar-burger {
+    margin-top: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    width: 70px;
+    height: 70px;
+    padding: 0;
+    margin-top: 20px;
+  }
+
+  .logoHome {
+    margin-top: 160px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+  }
+
+  .navbar-title {
+    font-size: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 5px;
+  }
+
+  .card {
+    text-align: center;
+    margin: 25px;
+    margin-bottom: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3d43;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+  }
+
+
+  h2 {
+    color: #f9f9f9;
+    font-family: "Poppins";
+    font-size: 40px;
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+  }
+
+  p {
+    margin-top: 20px;
+    color: black;
+    font-family: "Poppins";
+    font-size: 35px;
+
+  }
+
+  .cardDos {
+    text-align: center;
+    margin: 25px;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3d43;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+
+  }
+
+  .segui {
+    font-size: 35px;
+  }
+
+  .anclaSegui {
+    color: white;
+    font-size: 40px;
+    text-shadow: 0 0 4px #f9f9f9;
+  }
+
+  .ftHome {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+
+  }
+
+  .flexTextoFt {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+  }
+
+  .textoFt {
+    font-size: 23px;
+    color: white;
+    font-family: "Poppins";
+  }
+
+  .flexBotones {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .iconoFtHome {
+    width: 52px;
+    height: 40px;
+  }
+
+  .navbar-overlay {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  body.open .navbar-overlay {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navbar-menu>button {
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    padding: 0 8px;
+  }
+
+  .navbar-menu>button.active {
+    color: inherit;
+  }
+
+
+  .navbar-menu {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    translate: -100% 0;
+    width: 270px;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #000000;
+    visibility: hidden;
+    transition: translate 0.3s;
+  }
+
+  body.open .navbar-menu {
+    translate: 0 0;
+    visibility: visible;
+  }
+
+
 }
-
-* {
-  box-sizing: border-box;
-}
-
-
-body {
-  background: #3b3d43;
-}
-
-button {
-  border: 0;
-  padding: 0;
-  font-family: inherit;
-  background: transparent;
-  color: inherit;
-  cursor: pointer;
-}
-
-
-
-.navbar {
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 120px;
-  background: black;
-  color: #f9f9f9;
-  font-family: "Poppins";
-  box-sizing: border-box;
-}
-
-.navbar-burger {
-  margin-top: 27px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-size: 30px;
-  margin-left: 5px;
-}
-
-.navbar-title {
-  font-size: 30px;
-}
-
-.card {
-  text-align: center;
-  margin: 25px;
-  margin-bottom: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  background-color: #3b3d43;
-  box-sizing: border-box;
-  border-radius: 15px;
-  box-shadow: 0 0 20px black;
-}
-
-
-h2 {
-  color: #f9f9f9;
-  font-family: "Poppins";
-  font-size: 40px;
-  text-shadow: 0 0 10px rgb(255, 255, 255);
-}
-
-p {
-  margin-top: 20px;
-  color: black;
-  font-family: "Poppins";
-  font-size: 35px;
-
-}
-
-.cardDos {
-  text-align: center;
-  margin: 25px;
-  margin-bottom: 30px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  background-color: #3b3d43;
-  box-sizing: border-box;
-  border-radius: 15px;
-  box-shadow: 0 0 20px black;
-
-}
-
-.segui {
-  font-size: 35px;
-}
-
-.anclaSegui {
-  color: white;
-  font-size: 40px;
-  text-shadow: 0 0 4px #f9f9f9;
-}
-
-.ftHome {
-  background-color: black;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 10px;
-
-}
-
-.flexTextoFt {
-  display: flex;
-  flex-direction: column-reverse;
-  gap: 5px;
-}
-
-.textoFt {
-  font-size: 23px;
-  color: white;
-  font-family: "Poppins";
-}
-
-.flexBotones {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.iconoFtHome {
-  width: 52px;
-  height: 40px;
-}
-
-
-
 
 @media (min-width:350px) {
 
-.gridHome {
-  display: grid;
-  grid-template-rows: 8% 95% 9%;
-}
+  .gridHome {
+    display: grid;
+    grid-template-rows: 8% 95% 9%;
+  }
 
-.navbar {
-  height: 100px;
- }
-
- .navbar-burger {
-  margin-top: 15px;
-}
-
-.card{
-  margin: 10px 65px;
-  padding: 5px;
-}
-
-.cardDos {
-  margin: 10px 65px;
-  padding: 10px;
-}
-
-
-
-
-
-}
-
-
-
-
-
-@media only screen and (min-width: 600px) {
   .navbar {
+    height: 100px;
+  }
+
+  .navbar-burger {
+    margin-top: 10px;
+  }
+
+  .card {
+    margin: 10px 65px;
+    padding: 5px;
+  }
+
+  .cardDos {
+    margin: 10px 65px;
+    padding: 10px;
+  }
+
+  .navbar-title {
+    font-size: 30px;
+  }
+
+}
+
+
+@media (min-width: 600px) {
+
+  .gridHome {
+    display: grid;
+    grid-template-rows: 10% 95% 9%;
+  }
+
+  .navbar {
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-between;
-    padding: 0 0 0 16px;
   }
-}
 
-.navbar-overlay {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.3s;
-}
-
-body.open .navbar-overlay {
-  visibility: visible;
-  opacity: 1;
-}
-
-@media only screen and (min-width: 600px) {
-  .navbar-overlay {
-    display: none;
-  }
-}
-
-.navbar-burger {
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: grid;
-  place-items: center;
-  width: 70px;
-  height: 70px;
-  padding: 0;
-}
-
-@media only screen and (min-width: 600px) {
   .navbar-burger {
     display: none;
   }
-}
 
-.navbar-title {
-  margin: 0;
-  font-size: 30px;
-}
+  .navbar-title {
+    font-size: 20px;
+  }
 
-.navbar-menu {
-  position: fixed;
-  z-index: 3;
-  top: 0;
-  left: 0;
-  translate: -100% 0;
-  width: 270px;
-  height: 100%;
-  padding: 20px;
-  display: flex;
-  gap: 8px;
-  flex-direction: column;
-  align-items: flex-start;
-  background: #000000;
-  visibility: hidden;
-  transition: translate 0.3s;
-}
 
-body.open .navbar-menu {
-  translate: 0 0;
-  visibility: visible;
-}
+  .index {
+    margin-left: 10px;
+  }
 
-@media only screen and (min-width: 600px) {
   .navbar-menu {
     position: static;
     translate: 0 0;
     width: auto;
     background: transparent;
     flex-direction: row;
+    align-items: center;
     visibility: visible;
+    padding: 0px;
+    padding-right: 10px;
   }
-}
 
-.navbar-menu>button {
-  color: rgba(255, 255, 255, 0.5);
-  background: transparent;
-  padding: 0 8px;
-}
+  .logoHome {
+    margin-top: 0px;
+    margin-left: 70px;
+    width: 60px;
+    height: 60px;
+  }
 
-.navbar-menu>button.active {
-  color: inherit;
+  .active {
+    margin-right: 10px;
+    font-size: 20px;
+    width: 90px;
+  }
+
+  @media (min-width: 700px) {
+    .navbar-overlay {
+      display: none;
+    }
+  }
+
+
 }
