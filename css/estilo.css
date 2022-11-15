@@ -62,13 +62,13 @@ html {
     font-size: 50px;
   }
 
-  .logoHome {
-    margin-top: 450px;
+  .navbar-menu .logoHome {
+    margin-top: 600px;
     margin-left: 60px;
     margin-bottom: 10px;
     width: 100px;
     height: 100px;
-    display: flex;
+    justify-content: flex-end;
   }
 
   .navbar-title {
