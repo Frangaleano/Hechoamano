@@ -1,18 +1,17 @@
 html {
-  scroll-behavior: smooth;  
+  scroll-behavior: smooth;
 }
 
 @media (min-width: 100px) {
 
   .gridHome {
     display: grid;
-    grid-template-rows: 8% 95% 9%;
+    grid-template-rows: 8% 92% 12.5%;
   }
 
   * {
     box-sizing: border-box;
   }
-
 
   body {
     background: #3b3d43;
@@ -33,18 +32,21 @@ html {
     top: 0;
     left: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    align-content: center;
     width: 100%;
-    height: 120px;
+    height: 100px;
     background: black;
     color: #f9f9f9;
     font-family: "Poppins";
     box-sizing: border-box;
+    padding: 10px;
   }
 
-  .navbar-burger {
-    margin-top: 27px;
+  button .navbar-burger {
+    margin-top: 20px;
     position: absolute;
     top: 0;
     left: 0;
@@ -56,8 +58,12 @@ html {
     margin-top: 20px;
   }
 
+  .material-icon {
+    font-size: 50px;
+  }
+
   .logoHome {
-    margin-top: 160px;
+    margin-top: 450px;
     margin-left: 60px;
     margin-bottom: 10px;
     width: 100px;
@@ -76,9 +82,54 @@ html {
     margin-left: 5px;
   }
 
+  .active {
+    text-shadow: 0 0 5px rgb(255, 255, 255)
+  }
+
+  .mainHome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .card {
     text-align: center;
+    margin: 10px 40px;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3d43;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+  }
+
+  .card-text {
+    font-size: 30px;
+  }
+
+
+  h2 {
+    color: #f9f9f9;
+    font-family: "Poppins";
+    font-size: 40px;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+  }
+
+
+
+  p {
+    margin-top: 20px;
+    color: black;
+    font-family: "Poppins";
+    font-size: 35px;
+  }
+
+  .cardDos {
+    text-align: center;
     margin: 25px;
+    margin-top: 40px;
     margin-bottom: 10px;
     padding: 20px;
     display: flex;
@@ -89,44 +140,14 @@ html {
     box-shadow: 0 0 20px black;
   }
 
-
-  h2 {
-    color: #f9f9f9;
-    font-family: "Poppins";
-    font-size: 40px;
-    text-shadow: 0 0 10px rgb(255, 255, 255);
-  }
-
-  p {
-    margin-top: 20px;
-    color: black;
-    font-family: "Poppins";
-    font-size: 35px;
-
-  }
-
-  .cardDos {
-    text-align: center;
-    margin: 25px;
-    margin-bottom: 30px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    background-color: #3b3d43;
-    box-sizing: border-box;
-    border-radius: 15px;
-    box-shadow: 0 0 20px black;
-
-  }
-
   .segui {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .anclaSegui {
     color: white;
     font-size: 40px;
-    text-shadow: 0 0 4px #f9f9f9;
+    text-shadow: 0 0 5px #f9f9f9;
   }
 
   .ftHome {
@@ -136,7 +157,6 @@ html {
     justify-content: space-between;
     align-items: flex-start;
     padding: 10px;
-
   }
 
   .flexTextoFt {
@@ -149,12 +169,14 @@ html {
     font-size: 23px;
     color: white;
     font-family: "Poppins";
+    text-shadow: 0 0 5px rgb(255, 255, 255)
   }
 
   .flexBotones {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
+    margin-top: 15px;
   }
 
   .iconoFtHome {
@@ -201,35 +223,34 @@ html {
     height: 100%;
     padding: 20px;
     display: flex;
-    gap: 8px;
+    gap: 4px;
     flex-direction: column;
     align-items: flex-start;
     background: #000000;
     visibility: hidden;
     transition: translate 0.3s;
+    padding-left: 5px;
   }
 
   body.open .navbar-menu {
     translate: 0 0;
     visibility: visible;
   }
-
-
 }
 
 @media (min-width:350px) {
 
   .gridHome {
     display: grid;
-    grid-template-rows: 8% 95% 9%;
+    grid-template-rows: 8% 95% 12.6%;
   }
 
   .navbar {
-    height: 100px;
+    height: 80px;
   }
 
   .navbar-burger {
-    margin-top: 10px;
+    margin-top: 0px;
   }
 
   .card {
@@ -245,15 +266,102 @@ html {
   .navbar-title {
     font-size: 30px;
   }
-
 }
 
+@media (min-width: 450px) {
+
+  .gridHome {
+    display: grid;
+    grid-template-rows: 8% 91% 11.6%;
+  }
+
+  .navbar {
+    padding-top: 10px;
+    height: 60px;
+  }
+
+  .navbar-menu {
+    padding-left: 5px;
+  }
+
+  .navbar-title {
+    margin-top: 5px;
+    font-size: 23px;
+  }
+
+  .navbar-burger {
+    width: 50px;
+    height: 50px;
+  }
+
+  .active {
+    font-size: 20px;
+  }
+
+  .card {
+    align-items: center;
+    margin-top: 0px;
+    padding: 0px;
+  }
+
+  .card-body {
+    padding-top: 5px;
+  }
+
+  .card-title {
+    margin-top: 10px;
+    font-size: 25px;
+  }
+
+  .card-text {
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .imgLogo {
+    width: 400px;
+    height: 380px;
+    margin-bottom: 10px;
+  }
+
+  .cardDos {
+    align-items: center;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+
+  .segui {
+    margin: 5px;
+    font-size: 19px;
+  }
+
+  .anclaSegui {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .textoFt {
+    font-size: 15px;
+    margin-top: 10px;
+  }
+
+  .flexBotones {
+    gap: 5px;
+    margin-top: 5px;
+  }
+
+  .iconoFtHome {
+    width: 40px;
+    height: 25px;
+  }
+}
 
 @media (min-width: 600px) {
 
   .gridHome {
     display: grid;
-    grid-template-rows: 10% 95% 9%;
+    grid-template-rows: 10% 90% 12%;
   }
 
   .navbar {
@@ -267,9 +375,8 @@ html {
   }
 
   .navbar-title {
-    font-size: 20px;
+    font-size: 18px;
   }
-
 
   .index {
     margin-left: 10px;
@@ -288,23 +395,207 @@ html {
   }
 
   .logoHome {
-    margin-top: 0px;
-    margin-left: 70px;
-    width: 60px;
-    height: 60px;
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 50px;
+    height: 50px;
   }
 
   .active {
     margin-right: 10px;
-    font-size: 20px;
+    font-size: 15px;
     width: 90px;
   }
 
-  @media (min-width: 700px) {
-    .navbar-overlay {
-      display: none;
-    }
+  .card {
+    width: 500px;
+    height: 210px;
   }
 
+  .card-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-title {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+  .card-text {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .cardDos {
+    margin-top: 5px;
+    height: 175px;
+    width: 500px;
+  }
+
+  .segui {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: 710px) {
+
+  .gridHome {
+    display: grid;
+    grid-template-rows: 8% 95% 11%;
+  }
+
+  .active {
+    font-size: 20px;
+  }
+
+  .navbar-overlay {
+    display: none;
+  }
+
+  .navbar {
+    height: 70px;
+  }
+
+  .navbar-title {
+    margin-top: 0px;
+    margin-bottom: 12px;
+    font-size: 25px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    width: 600px;
+    height: 270px;
+  }
+
+  .card-title {
+    font-size: 30px;
+  }
+
+  .card-text {
+    font-size: 25px;
+  }
+
+  .imgLogo {
+    width: 440px;
+    height: 380px;
+  }
+
+  .cardDos {
+    width: 600px;
+    height: 230px;
+  }
+
+  .segui {
+    margin-top: 20px;
+    font-size: 25px;
+  }
+
+  .anclaSegui {
+    font-size: 30px;
+  }
+
+  .flexBotones {
+    margin-top: 0px;
+  }
+
+  .iconoFtHome {
+    width: 40px;
+    height: 30px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .gridHome {
+    display: grid;
+    grid-template-rows: 9% 93% 12.7%;
+  }
+
+  .navbar {
+    height: 70px;
+  }
+
+  .card {
+    height: 320px;
+    width: 700px;
+    margin-bottom: 20px;
+  }
+
+  .card-title {
+    font-size: 35px;
+  }
+
+  .card-text {
+    font-size: 30px;
+  }
+
+  .imgLogo {
+    margin: 50px;
+    width: 35em;
+    height: 25em;
+  }
+
+  .cardDos {
+    height: 280px;
+    width: 700px;
+  }
+
+  .segui {
+    font-size: 30px;
+  }
+
+  .anclaSegui {
+    font-size: 35px;
+  }
+
+  .textoFt {
+    font-size: 25px;
+  }
+
+  .iconoFtHome {
+    width: 60px;
+    height: 40px;
+    border-radius: 50px;
+  }
+
+  a:hover {
+    color: #3b3d43;
+    opacity: 70%;
+  }
+
+  .instagram {
+    border-radius: 20px;
+    padding: 2px;
+  }
+
+  .instagram:hover {
+    background-color: deeppink;
+    opacity: 100%;
+    transition-duration: .8s;
+  }
+
+  .whats {
+    border-radius: 20px;
+    padding: 2px;
+  }
+
+  .whats:hover {
+    background-color: lime;
+    opacity: 100%;
+    transition-duration: .8s;
+  }
+
+  .linked {
+    border-radius: 20px;
+    padding: 2px;
+  }
+
+  .linked:hover {
+    background-color: dodgerblue;
+    opacity: 100%;
+    transition-duration: .8s;
+  }
 
 }

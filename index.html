@@ -47,6 +47,7 @@
                 </nav>
             </nav>
         </header>
+
         <script type="text/javascript">
             const toggleMenuOpen = () => {
                 document.body.classList.toggle("open");
@@ -54,31 +55,31 @@
         </script>
 
 
-        <main>
+        <main class="mainHome">
 
             <div class="card">
                 <div class="card-body">
                     <h2 class="card-title">Que es HAM?</h2>
-                    <p class="card-text"><b> Hecho a mano</b> es una forma de trabajar, respetar, dedicar y enfocar todo
+                    <p class="card-text"><b> Hecho a mano</b> <br> es una forma de trabajar, respetar, dedicar y enfocar todo
                         el potencial para elaborar
                         piezas unicas en la piel de nuestros clientes.</p>
                 </div>
             </div>
 
             <div class="imgHam">
-                <img src="./img/logo.home.png" alt="logo Hecho a mano">
+                <img class="imgLogo" src="./img/logo.home.png" alt="logo Hecho a mano">
             </div>
-                <div class="cardDos">
-                    <div class="card-body">
-                        <p class="segui">
-                            Segui navegando y descubri porque Hecho a mano es tu mejor elección para tu proximo tatuaje!
-                        </p>
-                        <button>
-                            <a class="anclaSegui" href="./section/sobremi.html">Seguir navegando</a>
+            <div class="cardDos">
+                <div class="card-body">
+                    <p class="segui">
+                        Segui navegando y descubri porque <br> <b>Hecho a mano</b> <br> es tu mejor elección para tu proximo tatuaje!
+                    </p>
+                    <button>
+                        <a class="anclaSegui" href="./section/sobremi.html">Seguir navegando</a>
 
-                        </button>
-                    </div>
+                    </button>
                 </div>
+            </div>
         </main>
 
 
@@ -90,17 +91,17 @@
             </div>
 
             <div class="flexbotones">
-                <a href="https://www.instagram.com/hechoamanottt/" target="_blank">
+                <a class="instagram" href="https://www.instagram.com/hechoamanottt/" target="_blank">
                     <img class="iconoFtHome" src="./img/logos/instagram.svg" alt="instagram">
                 </a>
 
-                <a href="
+                <a class="whats" href="
                 https://wa.me/+5401125204181?text=hola,%20somos%20Hecho%20a%20mano!%20en%20que%20podemos%20ayudarte
                 " target="_blank">
                     <img class="iconoFtHome" src="./img/logos/whatsapp.svg" alt="whatsapp">
                 </a>
 
-                <a href="https://www.linkedin.com/in/franciscogaleano1/" target="_blank">
+                <a class="linked" href="https://www.linkedin.com/in/franciscogaleano1/" target="_blank">
                     <img class="iconoFtHome" src="./img/logos/linkedin.svg" alt="linkedin">
                 </a>
 
@@ -109,11 +110,11 @@
     </div>
 
     <script>
-		ScrollReveal().reveal('.card')
-		ScrollReveal().reveal('.imgHam')
-		ScrollReveal().reveal('.cardDos') 
+        ScrollReveal().reveal('.card')
+        ScrollReveal().reveal('.imgHam')
+        ScrollReveal().reveal('.cardDos')
 
-	</script>
+    </script>
 
 
     <!--Script de BST-->
