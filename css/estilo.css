@@ -65,7 +65,7 @@ html {
   }
 
   .logoHome {
-    margin-top: 700px;
+    margin-top: 640px;
     margin-left: 50px;
     margin-bottom: 10px;
     width: 155px;
@@ -239,17 +239,17 @@ html {
   }
 
   .instagram {
-    filter: drop-shadow(3px 3px 3px deeppink);
+    filter: drop-shadow(1px 2px 7px deeppink);
   }
 
   .whats {
-      filter: drop-shadow(3px 3px 3px lime);
+      filter: drop-shadow(1px 2px 7px lime);
   }
 
   .linked {
-    filter: drop-shadow(3px 3px 3px dodgerblue);
+    filter: drop-shadow(1px 2px 7px dodgerblue);
   }
-  
+
 }
 
 @media (min-width: 350px) {
