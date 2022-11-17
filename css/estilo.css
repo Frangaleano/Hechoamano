@@ -16,7 +16,7 @@ html {
 
   body {
     background: #3b3d43;
-    height: 100%;
+    overflow-x: auto;
   }
 
   button {
@@ -65,7 +65,7 @@ html {
   }
 
   .logoHome {
-    margin-top: 760px;
+    margin-top: 700px;
     margin-left: 50px;
     margin-bottom: 10px;
     width: 155px;
@@ -103,16 +103,15 @@ html {
     flex-direction: column;
     box-sizing: border-box;
     box-shadow: 0 0 20px black;
-    border-radius: 30px;
+    border-radius: 20px;
     background: linear-gradient(145deg, #35373c, #3f4148);
-    box-shadow: 20px 20px 60px #1d1e21,
-      -20px -20px 60px #42444b;
+    box-shadow: 20px 20px 50px #1d1e21,
+      -20px -20px 50px #42444b;
   }
 
   .card-text {
     font-size: 30px;
   }
-
 
   h2 {
     color: #f9f9f9;
@@ -137,10 +136,10 @@ html {
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    border-radius: 50px;
+    border-radius: 20px;
     background: linear-gradient(145deg, #35373c, #3f4148);
-    box-shadow: 20px 20px 60px #1d1e21,
-      -20px -20px 60px #42444b;
+    box-shadow: 20px 20px 50px #1d1e21,
+      -20px -20px 50px #42444b;
   }
 
   .segui {
@@ -215,7 +214,6 @@ html {
     color: inherit;
   }
 
-
   .navbar-menu {
     position: fixed;
     z-index: 3;
@@ -239,6 +237,19 @@ html {
     translate: 0 0;
     visibility: visible;
   }
+
+  .instagram {
+    filter: drop-shadow(3px 3px 3px deeppink);
+  }
+
+  .whats {
+      filter: drop-shadow(3px 3px 3px lime);
+  }
+
+  .linked {
+    filter: drop-shadow(3px 3px 3px dodgerblue);
+  }
+  
 }
 
 @media (min-width: 350px) {
@@ -697,7 +708,7 @@ html {
   }
 
   .logoSm {
-    margin-top: 500px;
+    margin-top: 430px;
     margin-left: 40;
     width: 100px;
     height: 100px;
@@ -718,11 +729,11 @@ html {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #3b3d43;
     box-sizing: border-box;
-    border-radius: 15px;
-    box-shadow: 0 0 20px black;
-    transition: translate 1s;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #35373c, #3f4148);
+    box-shadow: 20px 20px 50px #1d1e21,
+      -20px -20px 50px #42444b;
   }
 
   .card-titleSm {
