@@ -65,11 +65,11 @@ html {
   }
 
   .logoHome {
-    margin-top: 600px;
-    margin-left: 60px;
+    margin-top: 760px;
+    margin-left: 50px;
     margin-bottom: 10px;
-    width: 100px;
-    height: 100px;
+    width: 155px;
+    height: 155px;
   }
 
   .navbar-title {
@@ -101,10 +101,12 @@ html {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #3b3d43;
     box-sizing: border-box;
-    border-radius: 15px;
     box-shadow: 0 0 20px black;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #35373c, #3f4148);
+    box-shadow: 20px 20px 60px #1d1e21,
+      -20px -20px 60px #42444b;
   }
 
   .card-text {
@@ -118,8 +120,6 @@ html {
     font-size: 40px;
     text-shadow: 0 0 5px rgb(255, 255, 255);
   }
-
-
 
   p {
     margin-top: 20px;
@@ -136,10 +136,11 @@ html {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    background-color: #3b3d43;
     box-sizing: border-box;
-    border-radius: 15px;
-    box-shadow: 0 0 20px black;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #35373c, #3f4148);
+    box-shadow: 20px 20px 60px #1d1e21,
+      -20px -20px 60px #42444b;
   }
 
   .segui {
@@ -240,7 +241,7 @@ html {
   }
 }
 
-@media (min-width:350px) {
+@media (min-width: 350px) {
 
   .gridHome {
     display: grid;
@@ -608,8 +609,8 @@ html {
 @media (min-width: 100px) {
 
   .gridSobremi {
-      display: grid;
-      grid-template-rows: 6% 92% 9%;
+    display: grid;
+    grid-template-rows: 6% 92% 9%;
   }
 
   .navbarSm {
@@ -669,7 +670,7 @@ html {
     width: 177px;
     height: 100%;
     display: flex;
-    gap: 1.5px;
+    gap: 3.5px;
     flex-direction: column;
     align-items: flex-start;
     background: #000000;
@@ -691,9 +692,18 @@ html {
   }
 
   .activeSm {
-    font-size: 20px;
-    text-shadow: 0 0 1px rgb(255, 255, 255)
+    font-size: 19.5px;
+    text-shadow: 0 0 3px rgb(255, 255, 255)
   }
+
+  .logoSm {
+    margin-top: 500px;
+    margin-left: 40;
+    width: 100px;
+    height: 100px;
+  }
+
+
 
   .flexMainSm {
     display: flex;
@@ -712,6 +722,7 @@ html {
     box-sizing: border-box;
     border-radius: 15px;
     box-shadow: 0 0 20px black;
+    transition: translate 1s;
   }
 
   .card-titleSm {
@@ -761,20 +772,15 @@ html {
   .gridSobremi {
     display: grid;
     grid-template-rows: 6% 92% 9%;
+  }
+
+  .navbarSm {
+    height: 53.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+
+
+
 }
-
-.navbarSm {
-  height: 53.5px;
-  padding-left: 7px;
-  padding-right: 7px;
-}
-
-
-
-
-}
-
-
-
-
-
