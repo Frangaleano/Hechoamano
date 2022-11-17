@@ -65,7 +65,7 @@ html {
   }
 
   .logoHome {
-    margin-top: 640px;
+    margin-top: 620px;
     margin-left: 50px;
     margin-bottom: 10px;
     width: 155px;
@@ -177,7 +177,7 @@ html {
   .flexBotones {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
     margin-top: 15px;
   }
 
@@ -239,15 +239,21 @@ html {
   }
 
   .instagram {
-    filter: drop-shadow(1px 2px 7px deeppink);
+    background-color: deeppink;
+    border-radius: 30px;
+    opacity: 85%;
   }
 
   .whats {
-      filter: drop-shadow(1px 2px 7px lime);
+    background-color: lime;
+    border-radius: 30px;
+    opacity: 85%;
   }
 
   .linked {
-    filter: drop-shadow(1px 2px 7px dodgerblue);
+    background-color: dodgerblue;
+    border-radius: 30px;
+    opacity: 85%;
   }
 
 }
