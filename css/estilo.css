@@ -2,6 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/*MOBILE FIRST HOME*/
 @media (min-width: 100px) {
 
   .gridHome {
@@ -15,6 +16,7 @@ html {
 
   body {
     background: #3b3d43;
+    height: 100%;
   }
 
   button {
@@ -62,13 +64,12 @@ html {
     font-size: 50px;
   }
 
-  .navbar-menu .logoHome {
+  .logoHome {
     margin-top: 600px;
     margin-left: 60px;
     margin-bottom: 10px;
     width: 100px;
     height: 100px;
-    justify-content: flex-end;
   }
 
   .navbar-title {
@@ -600,3 +601,180 @@ html {
   }
 
 }
+
+
+/*MOBILE FIRST SOBRE MI */
+
+@media (min-width: 100px) {
+
+  .gridSobremi {
+      display: grid;
+      grid-template-rows: 6% 92% 9%;
+  }
+
+  .navbarSm {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    width: 100%;
+    height: 66px;
+    background: black;
+    color: #f9f9f9;
+    font-family: "Poppins";
+    box-sizing: border-box;
+    padding: 6px;
+  }
+
+  .navbar-overlaySm {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s;
+  }
+
+  body.open .navbar-overlaySm {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .navbar-menuSm>button {
+    color: rgba(255, 255, 255, 0.5);
+    background: transparent;
+    padding: 0 8px;
+  }
+
+  .navbar-menuSm>button.active {
+    color: inherit;
+  }
+
+
+  .navbar-menuSm {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    translate: -100% 0;
+    width: 177px;
+    height: 100%;
+    display: flex;
+    gap: 1.5px;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #000000;
+    visibility: hidden;
+    transition: translate 0.3s;
+    padding-top: 12px;
+    padding-left: 1px;
+  }
+
+  body.open .navbar-menuSm {
+    translate: 0 0;
+    visibility: visible;
+  }
+
+
+  .navbar-titleSm {
+    margin-top: 6px;
+    font-size: 20px;
+  }
+
+  .activeSm {
+    font-size: 20px;
+    text-shadow: 0 0 1px rgb(255, 255, 255)
+  }
+
+  .flexMainSm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cardSm {
+    text-align: center;
+    margin: 40px;
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3b3d43;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 0 0 20px black;
+  }
+
+  .card-titleSm {
+    font-size: 25px;
+  }
+
+  .card-textSm {
+    font-size: 20px;
+  }
+
+  .tatuadorImg {
+    border-radius: 15px;
+    height: 23em;
+
+  }
+
+  .ftSm {
+    padding: 7px;
+    padding-bottom: 7px;
+    padding-top: 12px;
+  }
+
+  .textoFtSm {
+    font-size: 15px;
+    color: white;
+    font-family: "Poppins";
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    margin-top: 8px;
+
+  }
+
+  .flexbotonesSm {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 8px;
+  }
+
+  .iconoFtSm {
+    width: 36px;
+    height: 26.5px;
+  }
+}
+
+@media (min-width: 350px) {
+
+  .gridSobremi {
+    display: grid;
+    grid-template-rows: 6% 92% 9%;
+}
+
+.navbarSm {
+  height: 53.5px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+
+
+
+}
+
+
+
+
+
