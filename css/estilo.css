@@ -83,10 +83,6 @@ html {
     margin-left: 5px;
   }
 
-  .active {
-    text-shadow: 0 0 5px rgb(255, 255, 255)
-  }
-
   .mainHome {
     display: flex;
     flex-direction: column;
@@ -241,19 +237,19 @@ html {
   .instagram {
     background-color: deeppink;
     border-radius: 30px;
-    opacity: 85%;
+    opacity: 60%;
   }
 
   .whats {
     background-color: lime;
     border-radius: 30px;
-    opacity: 85%;
+    opacity: 60%;
   }
 
   .linked {
     background-color: dodgerblue;
     border-radius: 30px;
-    opacity: 85%;
+    opacity: 60%;
   }
 
 }
@@ -528,6 +524,7 @@ html {
 }
 
 @media (min-width: 1024px) {
+
   .gridHome {
     display: grid;
     grid-template-rows: 9% 93% 12.7%;
@@ -581,8 +578,10 @@ html {
   }
 
   a:hover {
-    color: #3b3d43;
-    opacity: 70%;
+    color: #42444b;
+    opacity: 90%;
+    transition-duration: .8s;
+    clip-path: circle(top at end);
   }
 
   .instagram {
@@ -593,7 +592,7 @@ html {
   .instagram:hover {
     background-color: deeppink;
     opacity: 100%;
-    transition-duration: .8s;
+    transition-duration: 1s;
   }
 
   .whats {
@@ -604,7 +603,7 @@ html {
   .whats:hover {
     background-color: lime;
     opacity: 100%;
-    transition-duration: .8s;
+    transition-duration: 1s;
   }
 
   .linked {
@@ -615,7 +614,7 @@ html {
   .linked:hover {
     background-color: dodgerblue;
     opacity: 100%;
-    transition-duration: .8s;
+    transition-duration: 1s;
   }
 
 }
@@ -709,7 +708,6 @@ html {
 
   .activeSm {
     font-size: 19.5px;
-    text-shadow: 0 0 3px rgb(255, 255, 255)
   }
 
   .logoSm {
@@ -1151,7 +1149,6 @@ html {
 
   .activeTr {
     font-size: 14.2px;
-    text-shadow: 0 0 5px rgb(255, 255, 255)
   }
 
   .logoTr {
@@ -1193,7 +1190,7 @@ html {
     margin-bottom: 20px;
   }
 
-  .anclaHam {
+  .btn {
     padding: 10px;
     border: solid 2px white;
     border-radius: 50px;
@@ -1233,6 +1230,11 @@ html {
   .iconoFtTr {
     width: 24.5px;
     height: 18.9px;
+  }
+
+
+  .offcanvas-body {
+    font-family: "Poppins";
   }
 
 }
@@ -1318,7 +1320,7 @@ html {
 
   .gridTrabajos {
     display: grid;
-    grid-template-rows: 1.4% 98% 3%;
+    grid-template-rows: 1.4% 97.5% 3.16%;
   }
 
   .navbarTr {
@@ -1333,10 +1335,10 @@ html {
   .navbar-titleTr {
     font-size: 23px;
     margin-right: 3px;
-    margin-top: 8px;
+    margin-top: 12px;
   }
 
-  .navbar-menuTr{
+  .navbar-menuTr {
     width: 270px;
     padding-top: 16px;
   }
@@ -1363,22 +1365,472 @@ html {
 
   .ftTr {
     padding: 12px;
-    gap: 4.5;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .textoFtTr {
-    margin-top: 9px;
-    font-size: 16px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 17.5px;
+  }
+
+  .flexbotonesTr {
+    gap: 5px;
   }
 
   .iconoFtTr {
-    width: 43px;
-    height: 27;
+    width: 40px;
+    height: 25px;
   }
 
 
+}
+
+@media (min-width: 600px) {
+
+  .gridTrabajos {
+    display: grid;
+    grid-template-rows: 1.8% 97% 2.92%;
+  }
+
+  .navbarTr {
+    padding-left: 12px;
+    padding-right: 10px;
+    height: 59px;
+  }
+
+  .navbar-menuTr {
+    position: static;
+    translate: 0 0;
+    width: auto;
+    background: transparent;
+    flex-direction: row;
+    align-items: center;
+    visibility: visible;
+    padding: 0px;
+    padding-right: 10px;
+    gap: 34px;
+  }
+
+  .navbar-titleTr {
+    margin-top: 14px;
+    font-size: 17.4px;
+    margin-left: 1.5px;
+  }
+
+  .anclanavTr {
+    height: 44px;
+  }
+
+  .activeTr {
+    font-size: 14.6px;
+    margin-left: 1px;
+  }
+
+  .logoTr {
+    margin-left: 35px;
+    margin-top: 0px;
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1px;
+  }
+
+  .cardTr {
+    align-items: center;
+  }
+
+  .cardHam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-textTrDos {
+    font-size: 30px;
+  }
+
+  .btn {
+    width: 80px;
+    text-align: center;
+  }
+
+  .flexTextoFtTr {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 3px;
+  }
 
 
+  .textoFtTr {
+    font-size: 14.5px;
+    margin-bottom: 18px;
+  }
+
+  .flexbotonesTr {
+    gap: 5px;
+    margin-top: 2px;
+  }
+
+  .iconoFtTr {
+    width: 39px;
+    height: 24px;
+  }
+
+}
+
+@media (min-width: 710px) {
+
+  .gridTrabajos {
+    display: grid;
+    grid-template-rows: 1.9% 98% 3.06%;
+  }
+
+  .navbarTr {
+    padding-left: 12px;
+    padding-right: 10px;
+    height: 70px;
+    align-items: baseline;
+  }
+
+  .navbar-menuTr {
+    position: static;
+    translate: 0 0;
+    width: auto;
+    background: transparent;
+    flex-direction: row;
+    align-items: center;
+    visibility: visible;
+    padding: 0px;
+    padding-right: 10px;
+    gap: 16px;
+  }
+
+  .navbar-titleTr {
+    margin-top: 8px;
+    font-size: 24.7px;
+  }
+
+  .activeTr {
+    font-size: 19.7px;
+    margin-left: 0px;
+  }
+
+  .logoTr {
+    margin-left: 42px;
+    margin-top: 0px;
+    width: 49px;
+    height: 49px;
+  }
+
+  .flexMainTr {
+    padding: 30px;
+    padding-top: 30px;
+  }
+
+  .cardTr {
+    margin: 30px 150px;
+  }
+
+  .imgTatuajes {
+    height: 20em;
+    width: 16em;
+  }
+
+  .ftTr {
+    padding: 10px;
+  }
+
+  .flexTextoFtTr {
+    margin-top: 0px;
+  }
+
+  .textoFtTr {
+    font-size: 14.8px;
+    margin-bottom: 20px;
+    margin-top: 12px;
+  }
 
 
+  .flexbotonesTr {
+    margin-top: 5px;
+    gap: 4.6px;
+  }
+
+  .iconoFtTr {
+    width: 39px;
+    height: 30px;
+  }
+
+}
+
+@media (min-width: 1024px) {
+
+  .gridTrabajos {
+    display: grid;
+    grid-template-rows: 4% 95.5% 7.7%;
+  }
+
+  .navbarTr {
+    padding-left: 15px;
+    padding-right: 10px;
+    height: 70px;
+    align-items: baseline;
+  }
+
+  .navbar-menuTr {
+    gap: 14px;
+  }
+
+  .navbar-titleTr {
+    font-size: 25px;
+  }
+
+  .activeTr {
+    font-size: 20px;
+  }
+
+  .logoTr {
+    margin-left: 44px;
+  }
+
+  .cardTr {
+    margin: 30px 70px;
+  }
+
+  .card-titleTr {
+    font-size: 35px;
+  }
+
+  .card-textTr {
+    font-size: 30px;
+  }
+
+  .gridFotos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .imgTatuajes {
+    width: 18em;
+    height: 26em;
+    gap: 0px;
+    display: grid;
+  }
+
+  .tatuajeUno::after {
+    content: "Ojo de Horus";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    clip-path: circle(0 at top right);
+    transition: clip-path .8s;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+
+  .tatuajeUno:hover::after {
+    clip-path: circle(150% at top right);
+  }
+
+  .tatuajeDos::after {
+    content: "Mariposa full color";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    clip-path: circle(0 at top right);
+    transition: clip-path .8s;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+
+  .tatuajeDos:hover::after {
+    clip-path: circle(150% at top right);
+  }
+
+  .tatuajeTres::after {
+    content: "Buho realista";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    clip-path: circle(0 at top right);
+    transition: clip-path .8s;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+
+  .tatuajeTres:hover::after {
+    clip-path: circle(150% at top right);
+  }
+
+  .tatuajeCua::after {
+    content: "Rosa Black";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    clip-path: circle(0 at top right);
+    transition: clip-path .8s;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+
+  .tatuajeCua:hover::after {
+    clip-path: circle(150% at top right);
+  }
+
+  .tatuajeCin::after {
+    content: "Padrinos locos";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    clip-path: circle(0 at top right);
+    transition: clip-path .8s;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+
+  .tatuajeCin:hover::after {
+    clip-path: circle(150% at top right);
+  }
+
+  .tatuajeSeis::after {
+    content: "Arlequín";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    clip-path: circle(0 at top right);
+    transition: clip-path .8s;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+
+  .tatuajeSeis:hover::after {
+    clip-path: circle(150% at top right);
+  }
+
+
+  .tatuajeSie::after {
+    content: "Mandala";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    clip-path: circle(0 at top right);
+    transition: clip-path .8s;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+
+  .tatuajeSie:hover::after {
+    clip-path: circle(150% at top right);
+  }
+
+  .tatuajeOcho::after {
+    content: "Clavel Black";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    clip-path: circle(0 at top right);
+    transition: clip-path .8s;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+
+  .tatuajeOcho:hover::after {
+    clip-path: circle(150% at top right);
+  }
+
+  .tatuajeNue::after {
+    content: "Gato egipcio";
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    color: white;
+    display: grid;
+    place-items: center;
+    font-size: 20px;
+    text-align: center;
+    clip-path: circle(0 at top right);
+    transition: clip-path .8s;
+    border-radius: 20px;
+    margin-top: 5px;
+  }
+
+  .tatuajeNue:hover::after {
+    clip-path: circle(150% at top right);
+  }
+
+  .card-textTrDos {
+    font-size: 35px;
+  }
+
+  .btn {
+    width: 100px;
+    font-size: 40px;
+  }
+
+  .btn:hover {
+    background-color: #1d1e21;
+    opacity: 85%;
+  }
+
+  .ftTr {
+    padding-top: 0px;
+  }
+
+  .flexTextoFtTr {
+    margin-bottom: 10px;
+  }
+
+  .textoFtTr {
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .iconoFtTr {
+    width: 60px;
+    height: 40px;
+  }
 }
