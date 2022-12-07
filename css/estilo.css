@@ -1869,7 +1869,7 @@ html {
 
   .navCon {
     width: 335px;
-    gap: 37px;
+    gap: 35px;
     padding: 25px 10px;
   }
 
@@ -1878,7 +1878,7 @@ html {
   }
 
   .logoCon {
-    margin-top: 770px;
+    margin-top: 750px;
     margin-left: 60px;
     width: 190px;
     height: 190px;
@@ -1887,6 +1887,7 @@ html {
   .mainCon {
     padding: 20px;
   }
+
   .cardCon {
     text-align: center;
     margin: 30px 20px;
