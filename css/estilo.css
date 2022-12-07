@@ -1152,10 +1152,10 @@ html {
   }
 
   .logoTr {
-    margin-top: 310px;
-    margin-left: 30px;
-    width: 60px;
-    height: 70px;
+    margin-top: 305px;
+    margin-left: 25px;
+    width: 73px;
+    height: 73px;
   }
 
   .flexMainTr {
@@ -1194,11 +1194,13 @@ html {
     padding: 10px;
     border: solid 2px white;
     border-radius: 50px;
-    background-color: #1d1e21
+    background-color: #1d1e21;
+    font-size: 25px;
   }
 
+
   .offcanvas {
-    background-color: #000000;
+    background-color: #42444b;
   }
 
   .offcanvasRightLabel {
@@ -1206,9 +1208,11 @@ html {
   }
 
   .offcanvas-body {
-    margin-top: 30px;
-    color: white;
+    margin-top: 20px;
+    color: #000000;
   }
+
+
 
   .ftTr {
     padding: 5px;
