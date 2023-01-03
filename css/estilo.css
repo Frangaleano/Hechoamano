@@ -16,7 +16,7 @@ html {
 
   body {
     background: #3b3d43;
-    overflow-x: auto;
+    overflow-x: 100%;
   }
 
   button {
@@ -1976,5 +1976,35 @@ html {
     width: 64px;
     height: 50px;
   }
+
+}
+
+@media (min-width: 350px) {
+
+.gridContacto {
+  display: grid;
+  grid-template-rows: 6% 92% 9.3%;
+}
+
+.navBarCon {
+  align-items: center;
+  height: 100px;
+}
+
+} 
+
+
+@media (min-width: 450px) {
+
+  
+
+
+
+
+
+
+
+
+
 
 }
