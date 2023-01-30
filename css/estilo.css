@@ -7,7 +7,7 @@ html {
 
   .gridHome {
     display: grid;
-    grid-template-rows: 4% 92% 12.5%;
+    grid-template-rows: 5% 92% 10%;
   }
 
   * {
@@ -39,12 +39,12 @@ html {
     justify-content: space-between;
     align-content: center;
     width: 100%;
-    height: 55px;
+    height: 48px;
     background: black;
     color: #f9f9f9;
     font-family: "Poppins";
     box-sizing: border-box;
-    padding: 10px 6px;
+    padding: 10px 4px;
   }
 
   button .navbar-burger {
@@ -74,7 +74,7 @@ html {
   }
 
   .navbar-title {
-    font-size: 16.4px;
+    font-size: 14.1px;
     color: white;
     margin-bottom: 0px;
   }
@@ -191,7 +191,7 @@ html {
   .cardDos {
     text-align: center;
     margin: 25px;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-bottom: 10px;
     padding: 20px;
     display: flex;
@@ -204,12 +204,13 @@ html {
   }
 
   .segui {
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: 10px;
   }
 
   .anclaSegui {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     text-shadow: 0 0 5px #f9f9f9;
   }
 
@@ -219,32 +220,36 @@ html {
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 10px;
+    padding: 2px 5px;
+    padding-left: 2px;
+    margin-top: 30px;
   }
 
   .flexTextoFt {
     display: flex;
     flex-direction: column-reverse;
-    gap: 5px;
+    gap: 13px;
+    margin-top: 10px;
   }
 
   .textoFt {
-    font-size: 23px;
+    font-size: 11px;
     color: white;
     font-family: "Poppins";
-    text-shadow: 0 0 5px rgb(255, 255, 255)
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    margin: 3px;
   }
 
   .flexBotones {
     display: flex;
     flex-direction: column;
-    gap: 6px;
-    margin-top: 15px;
+    gap: 4px;
+    margin-top: 10px;
   }
 
   .iconoFtHome {
-    width: 52px;
-    height: 40px;
+    width: 24px;
+    height: 18px;
   }
 
   .instagram {
@@ -271,11 +276,11 @@ html {
 
   .gridHome {
     display: grid;
-    grid-template-rows: 8% 95% 12.6%;
+    grid-template-rows: 8% 95% 10%;
   }
 
   .navbar {
-    height: 80px;
+    height: 60px;
   }
 
   .navbar-burger {
@@ -283,8 +288,12 @@ html {
   }
 
   .logoHome {
-    margin-top: 440px;
-    margin-left: 50px;
+    margin-top: 340px;
+    margin-left: 30px;
+  }
+
+  .navbar-title {
+    font-size: 20px;
   }
 
   .card {
@@ -297,16 +306,27 @@ html {
     padding: 10px;
   }
 
-  .navbar-title {
-    font-size: 30px;
+  .ftHome {
+    margin-top: 0px;
   }
+
+  .flexTextoFt {
+    gap: 15px
+  }
+
+  .textoFt {
+    font-size: 13px;
+  }
+
+
+  
 }
 
 @media (min-width: 450px) {
 
   .gridHome {
     display: grid;
-    grid-template-rows: 8% 91% 11.6%;
+    grid-template-rows: 10% 91% 11.6%;
   }
 
   .navbar {
@@ -329,13 +349,14 @@ html {
   }
 
   .logoHome {
-    margin-top: 260px;
-    width: 130px;
-    height: 130px;
+    margin-top: 300px;
+    margin-left: 13px;
+    width: 110px;
+    height: 110px;
   }
 
   .active {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .card {
@@ -377,8 +398,12 @@ html {
   }
 
   .anclaSegui {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 20px;
+  }
+
+  .ftHome {
+    margin-top: 10px;
   }
 
   .textoFt {
@@ -388,7 +413,7 @@ html {
 
   .flexBotones {
     gap: 5px;
-    margin-top: 5px;
+    margin-top: 12px;
   }
 
   .iconoFtHome {
@@ -416,6 +441,7 @@ html {
 
   .navbar-title {
     font-size: 18px;
+    margin-top: 0px;
   }
 
   .index {
@@ -482,7 +508,7 @@ html {
 
   .gridHome {
     display: grid;
-    grid-template-rows: 8% 95% 11%;
+    grid-template-rows: 10% 95% 11%;
   }
 
   .active {
@@ -499,7 +525,6 @@ html {
 
   .navbar-title {
     margin-top: 0px;
-    margin-bottom: 12px;
     font-size: 25px;
   }
 
@@ -537,7 +562,7 @@ html {
   }
 
   .flexBotones {
-    margin-top: 0px;
+    margin-top: 5px;
   }
 
   .iconoFtHome {
@@ -650,7 +675,7 @@ html {
 
   .gridSobremi {
     display: grid;
-    grid-template-rows: 6% 92% 8.4%;
+    grid-template-rows: 6% 92% 8.8%;
   }
 
   .navbarSm {
@@ -706,17 +731,17 @@ html {
     top: 0;
     left: 0;
     translate: -100% 0;
-    width: 177px;
+    width: 207px;
     height: 100%;
     display: flex;
-    gap: 3.5px;
+    gap: 1.5px;
     flex-direction: column;
     align-items: flex-start;
     background: #000000;
     visibility: hidden;
     transition: translate 0.3s;
-    padding-top: 12px;
-    padding-left: 1px;
+    padding-top: 16px;
+    padding-left: 7px;
   }
 
   body.open .navbar-menuSm {
@@ -731,14 +756,14 @@ html {
 
 
   .activeSm {
-    font-size: 19.5px;
+    font-size: 23px;
   }
 
   .logoSm {
-    margin-top: 430px;
-    margin-left: 40px;
-    width: 100px;
-    height: 100px;
+    margin-top: 470px;
+    margin-left: 35px;
+    width: 120px;
+    height: 120px;
   }
 
   .flexMainSm {
@@ -772,27 +797,32 @@ html {
   .tatuadorImg {
     border-radius: 15px;
     height: 24em;
+    width: 15em
   }
 
   .ftSm {
-    padding: 7px;
-    padding-bottom: 7px;
+    padding: 0px 7px;
     padding-top: 12px;
+    margin-top: 0px;
+  }
+
+  .flexTextoSm {
+    gap: 12px;
   }
 
   .textoFtSm {
-    font-size: 15.5px;
+    font-size: 15.8px;
     color: white;
     font-family: "Poppins";
     text-shadow: 0 0 5px rgb(255, 255, 255);
-    margin-top: 8px;
+    margin-top: 0px;
   }
 
   .flexbotonesSm {
     display: flex;
     flex-direction: column;
-    gap: 4px;
-    margin-top: 4px;
+    gap: 5px;
+    margin-top: 5px;
   }
 
   .iconoFtSm {
