@@ -319,7 +319,7 @@ html {
   }
 
 
-  
+
 }
 
 @media (min-width: 450px) {
@@ -836,27 +836,65 @@ html {
 
   .gridSobremi {
     display: grid;
-    grid-template-rows: 6% 92% 8.6%;
+    grid-template-rows: 5% 92% 7.3%;
   }
 
   .navbarSm {
-    height: 53.5px;
-    padding-left: 7px;
-    padding-right: 7px;
+    height: 61px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .navbar-titleSm {
+    margin-top: 9px;
+    font-size: 20.5;
+  }
+
+  .navbar-menuSm {
+    width: 150px;
+    gap: 1px;
+    padding-left: 5px;
+    padding-top: 13px;
+  }
+
+  .activeSm {
+    font-size: 16.6px;
+  }
+
+  .logoSm {
+    margin-top: 348px;
+    margin-left: 31px;
+    width: 86px;
+    height: 86px;
+  }
+
+  .card-textSm {
+    font-size: 17px;
+  }
+
+  .ftSm {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
+  }
+
+  .flexTextoSm {
+    gap: 5px;
   }
 
   .textoFtSm {
-    font-size: 15.5px;
+    font-size: 13.4px;
   }
 
   .flexBotonesSm {
-    margin-top: 5px;
-    gap: 4.5;
+    margin-top: 7px;
+    gap: 4px;
   }
 
   .iconoFtSm {
-    width: 35px;
-    height: 26.5px;
+    width: 25px;
+    height: 18.5px;
   }
 
 }
