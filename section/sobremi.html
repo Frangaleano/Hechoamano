@@ -28,22 +28,26 @@
                 <div class="navbar-overlaySm" onclick="toggleMenuOpen()"></div>
 
                 <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
-                    <span class="material-icons materialTr" style="font-size: 34px;">menu</span>
+                    <span class="materialSm">menu</span>
                 </button>
                 <a class="indexSm" href="../index.html">
                     <h1 class="navbar-titleSm">Hecho a mano.</h1>
                 </a>
                 <nav class="navbar-menuSm">
-                    <a href="./sobremi.html">
-                        <button type="button" class="activeSm">Sobre mi</button>
-                    </a>
-                    <a href="./trabajos.html">
-                        <button type="button" class="activeSm">Trabajos</button>
-                    </a>
-                    <a href="./contacto.html">
-                        <button type="button" class="activeSm">Contacto</button>
-                    </a>
-                    <img class="logoSm" src="../img/logos/logomano.png" alt="logo">
+                    <div class="botonesMenuSm">
+                        <a href="./sobremi.html">
+                            <button type="button" class="activeSm">Sobre mi</button>
+                        </a>
+                        <a href="./trabajos.html">
+                            <button type="button" class="activeSm">Trabajos</button>
+                        </a>
+                        <a href="./contacto.html">
+                            <button type="button" class="activeSm">Contacto</button>
+                        </a>
+                    </div>
+                    <div>
+                        <img class="logoSm" src="../img/logos/logomano.png" alt="logo">
+                    </div>
                 </nav>
             </nav>
         </header>
@@ -57,15 +61,20 @@
         <main class="flexMainSm">
 
             <div class="cardSm cardSoy">
+
                 <div class="card-body">
+
                     <h2 class="card-titleSm">Hola, me llamo Francisco Galeano.</h2>
                     <p class="card-textSm">y primero que nada me <b>encantan</b> los tatuajes, tengo 26 años y hace 3
                         entre en este hermoso mundo, cada dia aprendo más de esta apasionante profesión y me esfuerzo
                         para ser mejor que ayer todos los dias.</p>
+
                 </div>
+
             </div>
 
             <div class="flexFotos">
+                
                 <div class="cardSm">
                     <div class="card-body">
                         <img class="tatuadorImg" src="../img/mio-uno.png" alt="tatuador">
@@ -83,13 +92,16 @@
 
         <footer class="ftHome ftSm">
 
+            <!--FLEX DIV TEXTO FOOTER-->
             <div class="flexTextoFt flexTextoSm">
 
                 <p class="textoFtSm">Copyrigth - todos los derechos reservados</p>
                 <p class="textoFtSm">Seguinos en nuestras redes</p>
 
             </div>
+            
 
+            <!--FLEX DIV BOTONES FOOTER-->
             <div class="flexbotonesSm">
 
                 <a class="instagram" href="https://www.instagram.com/hechoamanottt/" target="_blank">
@@ -108,9 +120,12 @@
 
         </footer>
     </div>
+
+    <!--Scrip ScrollReveal-->
     <script>
         ScrollReveal().reveal('.cardSm', { delay: 350 })
     </script>
+
     <!--Script de BST-->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"

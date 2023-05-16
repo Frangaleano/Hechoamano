@@ -7,7 +7,7 @@ html {
 
   .gridHome {
     display: grid;
-    grid-template-rows: 5% 92% 10%;
+    grid-template-rows: 5% 92% 11%;
   }
 
   * {
@@ -61,16 +61,13 @@ html {
   }
 
   .material-icons {
-    font-size: 50px;
     margin-top: 0px;
   }
 
   .logoHome {
-    margin-top: 330px;
     margin-left: 25px;
-    margin-bottom: 10px;
-    width: 83px;
-    height: 83px;
+    width: 70px;
+    height: 70px;
   }
 
   .navbar-title {
@@ -82,7 +79,7 @@ html {
   a {
     text-decoration: none;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 2px;
   }
 
@@ -135,6 +132,8 @@ html {
     visibility: hidden;
     transition: translate 0.3s;
     padding-left: 5px;
+    justify-content: space-between;
+
   }
 
   body.open .navbar-menu {
@@ -151,9 +150,9 @@ html {
 
   .card {
     text-align: center;
-    margin: 10px 40px;
+    margin: 10px 25px;
     margin-bottom: 30px;
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -172,7 +171,7 @@ html {
   h2 {
     color: #f9f9f9;
     font-family: "Poppins";
-    font-size: 25px;
+    font-size: 20px;
     text-shadow: 0 0 5px rgb(255, 255, 255);
   }
 
@@ -180,7 +179,7 @@ html {
     margin-top: 20px;
     color: black;
     font-family: "Poppins";
-    font-size: 35px;
+    font-size: 20px;
   }
 
   .imgLogo {
@@ -287,8 +286,11 @@ html {
     margin-top: 0px;
   }
 
+  .material-icons {
+    font-size: 29px;
+  }
+
   .logoHome {
-    margin-top: 340px;
     margin-left: 30px;
   }
 
@@ -301,9 +303,21 @@ html {
     padding: 5px;
   }
 
+  .card-title {
+    font-size: 25px;
+  }
+
+  .card-text {
+    font-size: 18px;
+  }
+
   .cardDos {
     margin: 10px 65px;
     padding: 10px;
+  }
+
+  .segui {
+    font-size: 18px;
   }
 
   .ftHome {
@@ -339,8 +353,8 @@ html {
   }
 
   .navbar-title {
-    margin-top: 5px;
-    font-size: 23px;
+    margin-top: 0px;
+    font-size: 20px;
   }
 
   .navbar-burger {
@@ -349,10 +363,9 @@ html {
   }
 
   .logoHome {
-    margin-top: 300px;
-    margin-left: 13px;
-    width: 110px;
-    height: 110px;
+    margin-left: 20px;
+    width: 90px;
+    height: 90px;
   }
 
   .active {
@@ -370,8 +383,9 @@ html {
   }
 
   .card-title {
-    margin-top: 10px;
     font-size: 25px;
+    margin-top: 10px;
+    
   }
 
   .card-text {
@@ -380,8 +394,8 @@ html {
   }
 
   .imgLogo {
-    width: 400px;
-    height: 380px;
+    width: 350px;
+    height: 330px;
     margin-bottom: 10px;
   }
 
@@ -461,8 +475,7 @@ html {
   }
 
   .logoHome {
-    margin-top: 10px;
-    margin-left: 50px;
+    margin-left: 40px;
     width: 50px;
     height: 50px;
   }
@@ -675,7 +688,7 @@ html {
 
   .gridSobremi {
     display: grid;
-    grid-template-rows: 6% 92% 8.8%;
+    grid-template-rows: 6% 92% 7.2%;
   }
 
   .navbarSm {
@@ -689,12 +702,13 @@ html {
     align-content: center;
     align-items: center;
     width: 100%;
-    height: 67px;
+    height: 53px;
     background: black;
     color: #f9f9f9;
     font-family: "Poppins";
     box-sizing: border-box;
-    padding: 6px;
+    padding: 4px;
+    padding-left: 4.5px;
   }
 
   .navbar-overlaySm {
@@ -731,7 +745,7 @@ html {
     top: 0;
     left: 0;
     translate: -100% 0;
-    width: 207px;
+    width: 163px;
     height: 100%;
     display: flex;
     gap: 1.5px;
@@ -740,8 +754,10 @@ html {
     background: #000000;
     visibility: hidden;
     transition: translate 0.3s;
-    padding-top: 16px;
-    padding-left: 7px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 6px;
+    justify-content: space-between;
   }
 
   body.open .navbar-menuSm {
@@ -749,21 +765,40 @@ html {
     visibility: visible;
   }
 
-  .navbar-titleSm {
-    margin-top: 8.5px;
-    font-size: 20.3px;
+  .materialSm {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 27px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
   }
 
+  .navbar-titleSm {
+    margin-top: 9px;
+    font-size: 15.8px;
+  }
+
+  .botonesMenuSm {
+    display: flex;
+    flex-direction: column;
+
+  }
 
   .activeSm {
-    font-size: 23px;
+    font-size: 18.3px;
   }
 
   .logoSm {
-    margin-top: 470px;
-    margin-left: 35px;
-    width: 120px;
-    height: 120px;
+    margin-left: 28px;
+    width: 78px;
+    height: 78px;
   }
 
   .flexMainSm {
@@ -796,38 +831,40 @@ html {
 
   .tatuadorImg {
     border-radius: 15px;
-    height: 24em;
-    width: 15em
+    height: 20em;
+    width: 10em
   }
 
   .ftSm {
-    padding: 0px 7px;
-    padding-top: 12px;
-    margin-top: 0px;
+    padding: 0px 5px;
+    margin-top: 15px;
+    align-items: center;
   }
 
   .flexTextoSm {
-    gap: 12px;
+    gap: 23px;
+    margin-top: 10px;
   }
 
   .textoFtSm {
-    font-size: 15.8px;
+    font-size: 12.3px;
     color: white;
     font-family: "Poppins";
     text-shadow: 0 0 5px rgb(255, 255, 255);
     margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .flexbotonesSm {
     display: flex;
     flex-direction: column;
     gap: 5px;
-    margin-top: 5px;
+    margin-bottom: 4px;
   }
 
   .iconoFtSm {
-    width: 35px;
-    height: 26.5px;
+    width: 27px;
+    height: 20px;
   }
 
 }
@@ -836,65 +873,93 @@ html {
 
   .gridSobremi {
     display: grid;
-    grid-template-rows: 5% 92% 7.3%;
+    grid-template-rows: 5% 92% 8.25%;
   }
 
   .navbarSm {
-    height: 61px;
-    padding-left: 5px;
-    padding-right: 5px;
+    height: 60px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .materialSm {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
   }
 
   .navbar-titleSm {
-    margin-top: 9px;
-    font-size: 20.5;
+    margin-top: 8px;
+    font-size: 20px;
   }
 
   .navbar-menuSm {
-    width: 150px;
+    width: 146px;
     gap: 1px;
     padding-left: 5px;
-    padding-top: 13px;
+    padding-top: 12px;
+    padding-bottom: 13px;
   }
 
   .activeSm {
-    font-size: 16.6px;
+    font-size: 16.2px;
   }
 
+
   .logoSm {
-    margin-top: 348px;
     margin-left: 31px;
-    width: 86px;
-    height: 86px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .card-titleSm {
+    font-size: 23px;
   }
 
   .card-textSm {
-    font-size: 17px;
+    font-size: 16px;
+  }
+
+  .tatuadorImg {
+    height: 22em;
+    width: 14em;
   }
 
   .ftSm {
-    padding-top: 5px;
+    padding-top: 0px;
     padding-left: 5px;
     padding-right: 5px;
     margin-top: 10px;
   }
 
   .flexTextoSm {
-    gap: 5px;
+    gap: 21px;
+    margin-bottom: 10px;
+    margin-top: 0px;
   }
 
   .textoFtSm {
-    font-size: 13.4px;
+    font-size: 13px;
   }
 
   .flexBotonesSm {
-    margin-top: 7px;
+    margin-top: 0px;
+    margin-bottom: 15px;
     gap: 4px;
   }
 
   .iconoFtSm {
-    width: 25px;
-    height: 18.5px;
+    width: 24px;
+    height: 18px;
   }
 
 }
@@ -903,43 +968,92 @@ html {
 
   .gridSobremi {
     display: grid;
-    grid-template-rows: 6% 92% 8%;
+    grid-template-rows: 5.5% 92% 7.6%;
   }
 
   .navbarSm {
-    height: 65px;
+    height: 66px;
+
   }
 
   .navbar-titleSm {
-    font-size: 25.5px;
-    margin-top: 14px;
-    margin-right: 4px;
+    font-size: 22px;
+    margin-top: 11px;
+    margin-right: 0px;
+  }
+
+  .materialSm {
+    margin-left: 5px;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .navbar-menuSm {
+    width: 160px;
+    padding-top: 14px;
+    padding-left: 6px;
+  }
+
+  .botonesMenuSm {
+    gap: 0.5px;
+  }
+
+  .activeSm {
+    font-size: 19.8px;
+  }
+
+  .logoSm {
+    width: 100px;
+    height: 100px;
+    margin-left: 21px;
   }
 
   .cardSm {
     margin: 30px 60px;
+  }
 
+  .card-titleSm {
+    font-size: 28px;
+  }
+
+  .card-textSm {
+    font-size: 20px;
   }
 
   .tatuadorImg {
-    height: 25em;
+    height: 26em;
     width: 21em;
     border-radius: 30px;
   }
 
   .ftSm {
-    padding: 12px;
-    gap: 4.5;
+    margin-top: 0px;
+    padding-top: 10px;
   }
 
   .textoFtSm {
     margin-top: 9px;
-    font-size: 16px;
+    font-size: 16.6px;
+  }
+
+  .flexBotonesSm {
+    margin-top: 10.5px;
+    gap: 5px;
   }
 
   .iconoFtSm {
-    width: 43px;
-    height: 27;
+    width: 44px;
+    height: 28px;
   }
 
 
@@ -949,12 +1063,13 @@ html {
 
   .gridSobremi {
     display: grid;
-    grid-template-rows: 6% 92% 8%;
+    grid-template-rows: 6% 92% 7.05%;
   }
 
   .navbarSm {
     padding-left: 12px;
-    padding-right: 10px;
+    padding-right: 12px;
+    height: 58px;
   }
 
   .navbar-menuSm {
@@ -966,37 +1081,55 @@ html {
     align-items: center;
     visibility: visible;
     padding: 0px;
-    padding-right: 10px;
-    gap: 34px;
+    padding-right: 2px;
+    gap: 23px;
   }
 
   .navbar-titleSm {
-    margin-top: 8px;
-    font-size: 17.5px;
+    margin-top: 7px;
+    font-size: 17px;
+  }
+
+  .botonesMenuSm {
+    flex-direction: row;
+    margin-top: 5px;
+    gap: 2.5px;
   }
 
   .activeSm {
-    font-size: 15px;
+    font-size: 14.2px;
+    margin-left: 35px;
   }
 
   .logoSm {
     margin-left: 35px;
-    margin-top: 2px;
-    width: 49px;
-    height: 49px;
+    margin-top: 0px;
+    width: 47.6px;
+    height: 47.5px;
+  }
+
+  .ftSm {
+    margin-top: 10px;
+  }
+
+  .flexTextoSm {
+    gap: 15px;
+    margin-top: 6.6px;
   }
 
   .textoFtSm {
-    font-size: 14.5px;
+    font-size: 14.3px;
+    margin-bottom: 2px;
   }
 
   .flexBotonesSm {
-    gap: 4.5px;
+    gap: 5px;
+    margin-top: 14.5px;
   }
 
   .iconoFtSm {
-    width: 40px;
-    height: 24px;
+    width: 38.5px;
+    height: 23.62px;
   }
 
 }
@@ -1005,7 +1138,7 @@ html {
 
   .gridSobremi {
     display: grid;
-    grid-template-rows: 6% 90% 14%;
+    grid-template-rows: 6% 90% 13%;
   }
 
   .navbarSm {
@@ -1013,6 +1146,7 @@ html {
     padding-right: 10px;
     height: 70px;
     align-items: baseline;
+    padding-top: 0px;
   }
 
   .navbar-menuSm {
@@ -1024,24 +1158,25 @@ html {
     align-items: center;
     visibility: visible;
     padding: 0px;
-    padding-right: 10px;
-    gap: 17px;
+    padding-right: 5px;
+    gap: 13px;
   }
 
   .navbar-titleSm {
-    margin-top: 8px;
-    font-size: 24px;
+    margin-top: 0px;
+    font-size: 25.1px;
   }
 
   .activeSm {
-    font-size: 19.5px;
+    font-size: 20px;
+    margin-left: 16px;
   }
 
   .logoSm {
-    margin-left: 35px;
-    margin-top: 0px;
-    width: 49px;
-    height: 49px;
+    margin-left: 34px;
+    margin-top: 1px;
+    width: 50px;
+    height: 50px;
   }
 
   .flexMainSm {
@@ -1064,22 +1199,26 @@ html {
   }
 
   .ftSm {
-    padding: 10px;
+    padding: 5px;
+    margin-top: 0px;
+  }
+
+  .flexTextoSm {
+    margin-top: 6px;
+    gap: 16px;
   }
 
   .textoFtSm {
-    font-size: 14.5px;
-    margin-bottom: 20px;
+    font-size: 15px;
   }
 
 
   .flexBotonesSm {
-    margin-top: 0px;
-    gap: 4.6px;
+    gap: 5px;
   }
 
   .iconoFtSm {
-    width: 39px;
+    width: 39.7px;
     height: 30px;
   }
 }
@@ -1089,18 +1228,20 @@ html {
 
   .gridSobremi {
     display: grid;
-    grid-template-rows: 6% 90% 16%;
+    grid-template-rows: 6% 90% 14.1%;
   }
 
   .navbarSm {
-    padding-left: 15px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 9px;
     height: 70px;
-    align-items: baseline;
+    align-items: baseline;  
+    padding-top: 0px;
   }
 
   .navbar-titleSm {
-    font-size: 25px;
+    font-size: 25px;  
+    margin-top: 0px;
   }
 
   .activeSm {
@@ -1108,7 +1249,8 @@ html {
   }
 
   .logoSm {
-    margin-left: 44px;
+    margin-left: 34px;
+    margin-top: 3px;
   }
 
   .flexMainSm {
@@ -1139,9 +1281,23 @@ html {
     height: 26em;
   }
 
+  .ftSm {
+    padding-top: 0px;
+  }
+
+  .flexTextoSm {
+    margin-top: 0px;
+    gap: 18px;
+    margin-bottom: 25px;
+  }
+
   .textoFtSm {
-    margin-bottom: 0.7em;
+    margin-bottom: 0px;
     font-size: 25px;
+  }
+
+  .flexBotonesSm {
+    margin-top: 11px;
   }
 
   .iconoFtSm {
@@ -1156,7 +1312,7 @@ html {
 
   .gridTrabajos {
     display: grid;
-    grid-template-rows: 2% 97.2% 3.85%;
+    grid-template-rows: 2% 97.2% 3.7%;
   }
 
   .navbarTr {
@@ -1177,6 +1333,8 @@ html {
     box-sizing: border-box;
     padding: 5px;
     padding-top: 7px;
+    padding-left: 4px;
+    padding-right: 4px;
   }
 
   .navbar-overlayTr {
@@ -1213,12 +1371,12 @@ html {
     top: 0;
     left: 0;
     translate: -100% 0;
-    width: 128px;
+    width: 146px;
     height: 100%;
     display: flex;
     gap: 0px;
     flex-direction: column;
-    align-items: flex-start;
+    justify-content: space-between;
     background: #000000;
     visibility: hidden;
     transition: translate 0.3s;
@@ -1230,8 +1388,21 @@ html {
     visibility: visible;
   }
 
-  /**.material-icons {
-  }**/
+  .material-iconsTr {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 5px;
+  }
 
   .navbar-titleTr {
     margin-top: 6px;
@@ -1244,15 +1415,23 @@ html {
     margin-left: 4px;
   }
 
+  .flexBotonesNavTr {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5px;
+    margin-top: 4px;
+    margin-left: 2px;
+  }
+
   .activeTr {
-    font-size: 14.2px;
+    font-size: 16.2px;
   }
 
   .logoTr {
-    margin-top: 305px;
-    margin-left: 25px;
-    width: 73px;
-    height: 73px;
+    margin-left: 29px;
+    margin-bottom: 13px;
+    width: 70px;
+    height: 70px;
   }
 
   .flexMainTr {
@@ -1267,11 +1446,11 @@ html {
   }
 
   .card-titleTr {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .card-textTr {
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 10px;
   }
 
@@ -1283,7 +1462,7 @@ html {
   }
 
   .card-textTrDos {
-    font-size: 20px;
+    font-size: 17px;
     margin-bottom: 20px;
   }
 
@@ -1294,7 +1473,6 @@ html {
     background-color: #1d1e21;
     font-size: 25px;
   }
-
 
   .offcanvas {
     background-color: #42444b;
@@ -1309,8 +1487,6 @@ html {
     color: #000000;
   }
 
-
-
   .ftTr {
     padding: 5px;
     padding-bottom: 7px;
@@ -1322,19 +1498,26 @@ html {
     background-color: #000000;
   }
 
+  .flexTextoFtTr {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 5px;
+  }
+
   .textoFtTr {
-    font-size: 10.8px;
+    font-size: 11px;
     color: white;
     font-family: "Poppins";
     text-shadow: 0 0 5px rgb(255, 255, 255);
     margin-top: 8px;
-    margin-bottom: 6.5px;
+    margin-bottom: 6px;
   }
 
   .flexbotonesTr {
     display: flex;
     flex-direction: column;
     gap: 3px;
+    margin-bottom: 10px;
   }
 
   .anclaFtTr {
@@ -1357,34 +1540,43 @@ html {
 
   .gridTrabajos {
     display: grid;
-    grid-template-rows: 2% 97% 4.05%;
+    grid-template-rows: 2% 97% 3.03%;
   }
 
   .navbarTr {
-    height: 54.6px;
-    padding-left: 7px;
-    padding-right: 7px;
+    height: 60px;
+    padding-left: 4px;
+    padding-right: 4px;
     align-items: stretch;
   }
 
   .navbar-titleTr {
-    margin-top: 10px;
-    font-size: 20.6px;
+    margin-top: 11px;
+    font-size: 20px;
   }
 
   .navbar-menuTr {
-    width: 185px;
-    padding-top: 10px;
+    width: 146px;
+    padding-top: 0px;
+  }
+
+  .flexBotonesNavTr {
+    margin-top: 3px;
+    gap: 1.3px;
   }
 
   .anclanavTr {
-    height: 34px;
     font-size: 24px;
-    margin-left: 6px;
+    margin-left: 4px;
   }
 
   .activeTr {
-    font-size: 20.5px;
+    font-size: 16.2px;
+  }
+
+  .logoTr {
+    margin-left: 34px;
+    margin-bottom: 12px;
   }
 
   .cardTr {
@@ -1406,26 +1598,33 @@ html {
     width: 14em;
   }
 
+  .flexTextoFtTr {
+    gap: 0px;
+    margin-bottom: 8px;
+  }
+
   .textoFtTr {
-    font-size: 15.8px;
-    margin-top: 14px;
+    font-size: 13px;
+    margin-top: 12px;
     margin-bottom: 8px
   }
 
   .ftTr {
     padding: 7px;
-    padding-top: 5px;
+    padding-top: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .flexbotonesTr {
     gap: 4px;
-    margin-top: 0px;
+    margin-top: 2px;
     margin-bottom: 10px;
   }
 
   .iconoFtTr {
-    width: 35.7px;
-    height: 27.5px;
+    width: 24px;
+    height: 18px;
   }
 
 }
@@ -1434,32 +1633,42 @@ html {
 
   .gridTrabajos {
     display: grid;
-    grid-template-rows: 1.4% 97.5% 3.16%;
+    grid-template-rows: 1.4% 97.5% 2.78%;
   }
 
   .navbarTr {
     height: 60px;
-  }
-
-  .material-icons {
-    margin-top: 2px;
-    margin-left: 3px;
+    padding-right: 1px;
+    padding-top: 6px;
   }
 
   .navbar-titleTr {
-    font-size: 23px;
+    font-size: 20px;
     margin-right: 3px;
     margin-top: 12px;
   }
 
   .navbar-menuTr {
-    width: 270px;
-    padding-top: 16px;
+    width: 146px;
+    padding-top: 6px;
+    padding-left: 0px;
+  }
+
+  .flexBotonesNavTr {
+    gap: 4px;
+    margin-top: 0px;
+    margin-left: 0px;
   }
 
   .activeTr {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 3px;
+  }
+
+  .logoTr {
+    margin-left: 25px;
+    width: 90px;
+    height: 90px;
   }
 
   .cardTr {
@@ -1479,18 +1688,27 @@ html {
 
   .ftTr {
     padding: 12px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+  }
+
+  .flexTextoFtTr {
+    margin-bottom: 0px;
+    margin-top: 1px;
+    gap: 10.5px;
   }
 
   .textoFtTr {
     margin-top: 10px;
     font-size: 15px;
-    margin-bottom: 17.5px;
+    margin-bottom: 8px;
   }
 
   .flexbotonesTr {
-    gap: 5px;
+    gap: 5px; 
+    margin-top: 5px;
+    margin-bottom: 4.5px;
   }
 
   .iconoFtTr {
@@ -1505,13 +1723,13 @@ html {
 
   .gridTrabajos {
     display: grid;
-    grid-template-rows: 1.8% 97% 2.92%;
+    grid-template-rows: 1.8% 97% 2.3%;
   }
 
   .navbarTr {
-    padding-left: 12px;
-    padding-right: 10px;
-    height: 59px;
+    padding-left: 11.5px;
+    padding-right: 13px;
+    height: 58px;
   }
 
   .navbar-menuTr {
@@ -1523,14 +1741,20 @@ html {
     align-items: center;
     visibility: visible;
     padding: 0px;
-    padding-right: 10px;
+    padding-right: 0px;
     gap: 34px;
   }
 
   .navbar-titleTr {
-    margin-top: 14px;
-    font-size: 17.4px;
-    margin-left: 1.5px;
+    margin-top: 12px;
+    font-size: 17.1px;
+    margin-left: 0px;
+  }
+
+  .flexBotonesNavTr {
+    flex-direction: row;
+    gap: 35px;
+    margin-top: 5px;
   }
 
   .anclanavTr {
@@ -1538,12 +1762,12 @@ html {
   }
 
   .activeTr {
-    font-size: 14.6px;
+    font-size: 14.2px;
     margin-left: 1px;
   }
 
   .logoTr {
-    margin-left: 35px;
+    margin-left: 24px;
     margin-top: 0px;
     width: 48px;
     height: 48px;
@@ -1552,6 +1776,7 @@ html {
 
   .cardTr {
     align-items: center;
+    margin: 60px;
   }
 
   .cardHam {
@@ -1572,18 +1797,25 @@ html {
   .flexTextoFtTr {
     display: flex;
     flex-direction: column-reverse;
-    margin-top: 3px;
+    margin-top: 6px;
+    gap: 0px;
+  }
+
+  .ftTr {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
 
   .textoFtTr {
-    font-size: 14.5px;
-    margin-bottom: 18px;
+    font-size: 14.3px;
+    margin-bottom: 10px;
+    margin-top: 16px;
   }
 
   .flexbotonesTr {
-    gap: 5px;
-    margin-top: 2px;
+    gap: 4.5px;
+    margin-top: 15px;
   }
 
   .iconoFtTr {
@@ -1597,13 +1829,13 @@ html {
 
   .gridTrabajos {
     display: grid;
-    grid-template-rows: 1.9% 98% 3.06%;
+    grid-template-rows: 1.9% 98% 2.78%;
   }
 
   .navbarTr {
-    padding-left: 12px;
-    padding-right: 10px;
-    height: 70px;
+    padding-left: 11.5px;
+    padding-right: 3.5px;
+    height: 69px;
     align-items: baseline;
   }
 
@@ -1622,19 +1854,24 @@ html {
 
   .navbar-titleTr {
     margin-top: 8px;
-    font-size: 24.7px;
+    font-size: 24.3px;
+  }   
+
+  .flexBotonesNavTr {
+    gap: 16px;
   }
 
   .activeTr {
-    font-size: 19.7px;
+    font-size: 19.5px;
     margin-left: 0px;
   }
 
   .logoTr {
-    margin-left: 42px;
+    margin-left: 29px;
     margin-top: 0px;
     width: 49px;
     height: 49px;
+    margin-bottom: 2px;
   }
 
   .flexMainTr {
@@ -1651,29 +1888,36 @@ html {
     width: 16em;
   }
 
+  .card-textTrDos {
+    font-size: 24px;
+  }
+
   .ftTr {
     padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .flexTextoFtTr {
-    margin-top: 0px;
+    margin-top: 10px;
+    gap: 12px;
   }
 
   .textoFtTr {
-    font-size: 14.8px;
-    margin-bottom: 20px;
-    margin-top: 12px;
+    font-size: 14.6px;
+    margin-bottom: 10px;
+    margin-top: 5px;
   }
 
 
   .flexbotonesTr {
     margin-top: 5px;
-    gap: 4.6px;
+    gap: 4.7px;
   }
 
   .iconoFtTr {
     width: 39px;
-    height: 30px;
+    height: 29px;
   }
 
 }
@@ -1682,12 +1926,12 @@ html {
 
   .gridTrabajos {
     display: grid;
-    grid-template-rows: 4% 95.5% 7.7%;
+    grid-template-rows: 4% 95.5% 7.38%;
   }
 
   .navbarTr {
-    padding-left: 15px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 4px;
     height: 70px;
     align-items: baseline;
   }
@@ -1698,6 +1942,7 @@ html {
 
   .navbar-titleTr {
     font-size: 25px;
+    margin-top: 14px;
   }
 
   .activeTr {
@@ -1705,7 +1950,10 @@ html {
   }
 
   .logoTr {
-    margin-left: 44px;
+    margin-left: 33px;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 3px;
   }
 
   .cardTr {
@@ -1935,12 +2183,18 @@ html {
   }
 
   .flexTextoFtTr {
-    margin-bottom: 10px;
+    margin-bottom: 11.5px;
+    margin-top: 8px;
+    gap: 12.5px;
   }
 
   .textoFtTr {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-size: 25px;
+  }   
+
+  .flexbotonesTr {
+    gap: 5px;
   }
 
   .iconoFtTr {
@@ -1960,7 +2214,7 @@ html {
 
   .navBarCon {
     height: 124px;
-    padding: 11px 12px;
+    padding: 11px 11px;
   }
 
   .navTitulo {
@@ -2159,9 +2413,7 @@ html {
     margin-bottom: 20px;
   }
 
-  .card-title {
-    font-size: 40px;
-  }
+  
 
   .card-textCon {
     font-size: 30px;
