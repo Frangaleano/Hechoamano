@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 
-/*MOBILE FIRST HOME*/
+/*MOBILE FIRST HOME 200PX */
+
 @media (min-width: 100px) {
 
   .gridHome {
@@ -585,6 +586,8 @@ html {
 
 }
 
+/*VISTA DESKTOP*/
+
 @media (min-width: 1024px) {
 
   .gridHome {
@@ -682,7 +685,7 @@ html {
 }
 
 
-/*MOBILE FIRST SOBRE MI */
+/*MOBILE FIRST SOBRE MI 200PX*/
 
 @media (min-width: 100px) {
 
@@ -1223,6 +1226,8 @@ html {
   }
 }
 
+/*VISTA DESKTOP*/
+
 @media (min-width: 1024px) {
 
 
@@ -1306,7 +1311,7 @@ html {
   }
 }
 
-/*MOBILE FIRST TRABAJOS*/
+/*MOBILE FIRST TRABAJOS 200PX*/
 
 @media (min-width: 100px) {
 
@@ -1922,6 +1927,8 @@ html {
 
 }
 
+/*VISTA DESKTOP*/
+
 @media (min-width: 1024px) {
 
   .gridTrabajos {
@@ -2203,29 +2210,51 @@ html {
   }
 }
 
-/*MOBILE FIRST CONTACTO*/
+/*MOBILE FIRST CONTACTO 200PX*/
 
 @media (min-width: 100px) {
 
   .gridContacto {
     display: grid;
-    grid-template-rows: 6% 90% 9.5%;
+    grid-template-rows: 6% 90% 8.3%;
   }
 
   .navBarCon {
-    height: 124px;
-    padding: 11px 11px;
+    height: 104px;
+    padding: 11px 9px;
+  }
+
+  .menuCon {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 53px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    -webkit-font-smoothing: antialiased;
   }
 
   .navTitulo {
-    margin-top: 12px;
-    font-size: 37.5px;
+    margin-top: 10px;
+    font-size: 30.5px;
   }
 
   .navCon {
-    width: 335px;
+    width: 315px;
     gap: 35px;
-    padding: 25px 10px;
+    padding: 25px 12px;
+  }
+
+  .divAnclaCon {
+    display: flex;
+    flex-direction: column;
+    gap: 30.5px;
   }
 
   .anclanavCon {
@@ -2235,18 +2264,26 @@ html {
   }
 
   .activeCon {
-    font-size: 37px;
+    font-size: 35px;
   }
 
   .logoCon {
-    margin-top: 750px;
-    margin-left: 60px;
-    width: 190px;
-    height: 190px;
+    width: 151px;
+    height: 151px;
+    margin-left: 54px;
+    margin-bottom: 1px;
   }
 
   .mainCon {
     padding: 20px;
+  }
+
+  .card-titleCon {
+    font-size: 45px;
+  }
+
+  .card-textCon {
+    font-size: 30px;
   }
 
   .cardCon {
@@ -2279,6 +2316,7 @@ html {
   .imgIns {
     border-radius: 30px;
     margin-top: 30px;
+    height: 300px;
   }
 
   .tituloWsp {
@@ -2296,31 +2334,34 @@ html {
   .instrucciones {
     text-align: center;
     margin: 60px 20px;
+    font-size: 30px;
   }
 
   .ftCon {
-    padding: 5px 12px;
-    padding-top: 30px;
+    padding: 5px 11px;
+    padding-top: 25px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
     background-color: #000000;
+    margin-top: 20px;
   }
 
   .flexTextoFtCon {
     display: flex;
     flex-direction: column-reverse;
-    gap: 34px;
+    gap: 43px;
+    margin-top: 9px;
   }
 
   .TextoFtCon {
-    font-size: 28.5px;
+    font-size: 23.7px;
     color: white;
     font-family: "Poppins";
     text-shadow: 0 0 5px rgb(255, 255, 255);
-    margin-top: 8px;
-    margin-bottom: 6.5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .flexbotonesCon {
@@ -2330,8 +2371,8 @@ html {
   }
 
   .iconoFtCon {
-    width: 64px;
-    height: 50px;
+    width: 52px;
+    height: 40px;
   }
 
 }
@@ -2340,32 +2381,82 @@ html {
 
   .gridContacto {
     display: grid;
-    grid-template-rows: 6% 92% 9.3%;
+    grid-template-rows: 5.5% 92% 8.05%;
   }
 
   .navBarCon {
     align-items: center;
-    height: 100px;
+    height: 110px;
+    padding-right: 6px;
+    padding-left: 7px;
+  }
+
+  .navTitulo {
+    margin-top: 9px;
+    font-size: 37px;
+  }
+
+  .menuCon {
+    font-size: 44px;
   }
 
   .navCon {
-    width: 395px;
-    gap: 27px;
-    padding: 24px 9px;
+    width: 266px;
+    padding: 20px 8px;
   }
 
-  .anclanavCon {
-    height: 34px;
-    font-size: 24px;
-    margin-left: 6px;
+  .divAnclaCon {
+    gap: 22px;
   }
 
-
+  .activeCon {
+    font-size: 30px;
+  }
 
   .logoCon {
-    margin-top: 550px;
+    height: 129px;
+    width: 129px;
+    margin-left: 54px;
+    margin-bottom: 1px;
   }
 
+  .mainCon {
+    padding: 20px 70px;
+  }
+
+  .card-titleCon {
+    font-size: 35px;
+  }
+
+  .instrucciones {
+    font-size: 32px;
+  }
+
+  .ftCon {
+    padding-top: 18px;
+    padding-left: 9px;
+    padding-right: 8px;
+  }
+
+  .flexTextoFtCon {
+    gap: 37px;
+    margin-top: 8px;
+  }
+
+  .TextoFtCon {
+    font-size: 23.8px;
+  }
+
+  .flexbotonesCon {
+    gap: 7px;
+    margin-top: 5px;
+  }
+
+  .iconoFtCon {
+    height: 33px;
+    width: 45px;
+  }
+  
 
 
 
@@ -2376,32 +2467,43 @@ html {
 
   .gridContacto {
     display: grid;
-    grid-template-rows: 3% 92% 7.8%;
+    grid-template-rows: 4% 92% 6.87%;
   }
 
   .navBarCon {
-    height: 86px;
+    height: 85px;
+    padding-left: 16px;
+    padding-right: 4px;
+  }
+
+  .menuCon {
+    font-size: 34px;
   }
 
   .navCon {
     gap: 16px;
-    padding: 31px 7px;
+    padding: 19px 3px;
+    width: 207px;
+    padding-bottom: 15px;
+  }
+
+  .divAnclaCon {
+    gap: 15.1px;
   }
 
   .activeCon {
-    font-size: 29px;
+    font-size: 25.5px;
   }
 
   .logoCon {
-    margin-top: 380px;
-    margin-left: 70px;
-    width: 185px;
-    height: 185px;
+    margin-left: 32px;
+    width: 129px;
+    height: 129px;
   }
 
   .navbar-titleCon {
-    font-size: 33.5px;
-    margin-top: 17px;
+    font-size: 28.5px;
+    margin-top: 10px;
     margin-right: 2px;
   }
 
@@ -2413,8 +2515,6 @@ html {
     margin-bottom: 20px;
   }
 
-  
-
   .card-textCon {
     font-size: 30px;
   }
@@ -2424,26 +2524,29 @@ html {
   }
 
   .flexTextoFtCon {
-    gap: 31px;
+    gap: 41px;
+    margin-top: 11px;
   }
 
   .textoFtCon {
-    font-size: 21.8px;
+    font-size: 21.4px;
     margin-left: 3px;
   }
 
   .ftCon {
     padding-top: 20px;
+    padding-left: 4px;
+    padding-right: 5px;
   }
 
   .flexbotonesCon {
-    margin-top: 2px;
+    margin-top: 0px;
     margin-right: 2px;
   }
 
   .iconoFtCon {
-    width: 58px;
-    height: 36.5px;
+    width: 57px;
+    height: 36px;
 
   }
 
@@ -2453,13 +2556,240 @@ html {
 
   .gridContacto {
     display: grid;
-    grid-template-rows: 6% 90% 9.5%;
+    grid-template-rows: 2% 93% 7.5%;
+  }
+
+  .navBarCon{
+    justify-content: flex-start;
+    padding-left: 11.5px;
+    padding-right: 0px;
+    height: 58px;
+  }
+
+  .navbar-titleCon {
+    font-size: 17.1px;
+    margin-top: 6px;
+  }
+
+  .divAnclaCon {
+    flex-direction: row;
+    margin-left: 41.5px;
+    margin-top: 2px;
+    gap: 8.3px;
+  }
+
+  .activeCon {
+    font-size: 14.3px;
+    width: 90px;
+  }
+
+  .logoCon {
+    height: 48px;
+    width: 48px;
+    margin-bottom: 5px;
+    margin-left: 31px;
+  }
+
+  .cardCon {
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+
+  .card-titleCon {
+    font-size: 30px;
+  }
+
+  .card-textCon {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .tituloCard {
+    font-size: 25px;
+    margin: 0px 20px;
+    padding: 5px 30px;
+  }
+
+  .card-body {
+    align-items: center;
+  }
+
+  .imgIns {
+    height: 200px;
+    width: 300px;
+  }
+
+  .tituloWsp {
+    font-size: 25px;
+    margin: 0px 20px;
+    padding: 5px 30px;
+  }
+
+  .instrucciones {
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 70px;
+  }
+
+  .ftCon {
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 0px;
+  }
+
+  .flexTextoFtCon {
+    gap: 26px;
+    margin-top: 11px;
+  }
+
+  .textoFtCon {
+    font-size: 14.3px;
+    margin-left: 0px;
+  }
+
+  .flexbotonesCon {
+    margin-top: 4px;
+    margin-right: 0px;
+    gap: 5px;
+  }
+
+  .iconoFtCon {
+    width: 38px;
+    height: 23.5px;
   }
 
 
+}
 
+@media (min-width: 710px) {
+  .gridContacto {
+    display: grid;
+    grid-template-rows: 4% 91% 8.48%;
+  }
 
+  .navBarCon {
+    height: 69px;
+  }
 
+  .navbar-titleCon {
+    font-size: 24.3px;
+  }
 
+  .navCon {
+    padding: 0px;
+  }
+
+  .divAnclaCon {
+    margin-left: 92px;
+    gap: 12.5px;
+    margin-bottom: 6px;
+  }
+
+  .activeCon {
+    font-size: 19.5px;
+  }
+
+  .logoCon {
+    width: 48.7px;
+    height: 48.7px;
+    margin-bottom: 2.3px;
+    margin-left: 30.8px;
+  }
+
+  .ftCon {
+    padding-top: 7px;
+  }
+
+  .flexTextoFtCon {
+    gap: 27px;
+    margin-top: 15px;
+  }
+
+  .textoFtCon {
+    font-size: 14.6px;
+  }
+
+  .flexbotonesCon {
+    margin-top: 0px;
+  }
+
+  .iconoFtCon {
+    width: 39px;
+    height: 29px;
+  }
+}
+
+/*VISTA DESKTOP*/
+
+@media (min-width: 1024px) {
+
+  .gridContacto {
+    grid-template-rows: 6% 91% 15.9%;
+  }
+
+  .navBarCon {
+    height: 70px;
+  }
+
+  .navbar-titleCon {
+    font-size: 25.11px;
+    margin-top: 8px;
+  }
+
+  .divAnclaCon {
+    margin-left: 715px;
+    gap: 15px;  
+    margin-bottom: 7px;
+  }
+
+  .activeCon {
+    font-size: 20px;
+  }
+
+  .logoCon {
+    margin-left: 34px;
+    margin-bottom: 1px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .card-titleCon {
+    font-size: 35px;
+  }
+
+  .card-textCon {
+    font-size: 25px;
+  }
+
+  .divBotones {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .tituloCard {
+    font-size: 30px;
+  }
+
+  .tituloWsp {
+    font-size: 30px;
+  }
+
+  .instrucciones {
+    font-size: 25px;
+  }
+
+  .flexTextoFtCon {
+    margin-top: 14px;
+    gap: 28px;
+  }
+
+  .textoFtCon {
+    font-size: 25px;
+  }
+
+  .iconoFtCon {
+    width: 60px;
+    height: 40px;
+  }
 
 }
