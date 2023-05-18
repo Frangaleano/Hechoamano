@@ -1455,7 +1455,7 @@ html {
   }
 
   .card-textTr {
-    font-size: 15px;
+    font-size: 13px;
     margin-top: 10px;
   }
 
@@ -2216,7 +2216,7 @@ html {
 
   .gridContacto {
     display: grid;
-    grid-template-rows: 6% 90% 8.3%;
+    grid-template-rows: 4% 90% 8.3%;
   }
 
   .navBarCon {
@@ -2317,6 +2317,7 @@ html {
     border-radius: 30px;
     margin-top: 30px;
     height: 300px;
+    width: 350px;
   }
 
   .tituloWsp {
