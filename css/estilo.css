@@ -2429,6 +2429,11 @@ html {
     font-size: 35px;
   }
 
+  .imgIns {
+    height: 10em;
+    width: 11em;
+  }
+
   .instrucciones {
     font-size: 32px;
   }
@@ -2457,10 +2462,6 @@ html {
     height: 33px;
     width: 45px;
   }
-  
-
-
-
 
 }
 
@@ -2561,7 +2562,6 @@ html {
   }
 
   .navBarCon{
-    justify-content: flex-start;
     padding-left: 11.5px;
     padding-right: 0px;
     height: 58px;
