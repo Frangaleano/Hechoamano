@@ -1592,11 +1592,11 @@ html {
   }
 
   .card-titleTr {
-    font-size: 34px;
+    font-size: 24px;
   }
 
   .card-textTr {
-    font-size: 23px;
+    font-size: 18px;
   }
 
   .imgTatuajes {
@@ -2491,44 +2491,43 @@ html {
 
   .gridContacto {
     display: grid;
-    grid-template-rows: 4% 92% 6.87%;
+    grid-template-rows: 2% 92% 7%;
   }
 
   .navBarCon {
-    height: 85px;
-    padding-left: 16px;
+    height: 60px;
+    padding-left: 4px;
     padding-right: 4px;
   }
 
   .menuCon {
-    font-size: 34px;
+    font-size: 24px;
   }
 
   .navCon {
     gap: 16px;
-    padding: 19px 3px;
-    width: 207px;
-    padding-bottom: 15px;
+    padding: 12px 0px;
+    width: 146px;
   }
 
   .divAnclaCon {
-    gap: 15.1px;
+    gap: 4px;
   }
 
   .activeCon {
-    font-size: 25.5px;
+    font-size: 18px;
   }
 
   .logoCon {
-    margin-left: 32px;
-    width: 129px;
-    height: 129px;
+    margin-left: 25px;
+    width: 90px;
+    height: 90px;
   }
 
   .navbar-titleCon {
-    font-size: 28.5px;
-    margin-top: 10px;
-    margin-right: 2px;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-right: 0px;
   }
 
   .material-icons {
@@ -2536,42 +2535,42 @@ html {
   }
 
   .mainCon {
-    margin-bottom: 20px;
+    margin: 10px 40px;
   }
 
   .card-textCon {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .instrucciones {
-    font-size: 30px;
+    font-size: 22px;
   }
 
   .flexTextoFtCon {
-    gap: 41px;
+    gap: 28px;
     margin-top: 11px;
   }
 
   .textoFtCon {
-    font-size: 21.4px;
-    margin-left: 3px;
+    font-size: 15px;
+    margin-left: 1px;
   }
 
   .ftCon {
-    padding-top: 20px;
+    padding-top: 11px;
     padding-left: 4px;
-    padding-right: 5px;
+    padding-right: 3px;
   }
 
   .flexbotonesCon {
-    margin-top: 0px;
+    margin-top: 3px;
     margin-right: 2px;
+    gap: 5px;
   }
 
   .iconoFtCon {
-    width: 57px;
-    height: 36px;
-
+    width: 40px;
+    height: 25px;
   }
 
 }
@@ -2580,17 +2579,18 @@ html {
 
   .gridContacto {
     display: grid;
-    grid-template-rows: 2% 93% 7.5%;
+    grid-template-rows: 2% 93% 7.45%;
   }
 
   .navBarCon{
     padding-left: 11.5px;
-    padding-right: 0px;
+    padding-right: 13px;
     height: 58px;
   }
 
   .navCon {
     width: auto;
+    padding: 0px;
   }
 
   .navbar-titleCon {
@@ -2600,9 +2600,9 @@ html {
 
   .divAnclaCon {
     flex-direction: row;
-    margin-left: 41.5px;
-    margin-top: 2px;
     gap: 8.3px;
+    margin-top: 6px;
+    margin-right: 5px;
   }
 
   .activeCon {
@@ -2613,8 +2613,7 @@ html {
   .logoCon {
     height: 48px;
     width: 48px;
-    margin-bottom: 5px;
-    margin-left: 31px;
+    margin-bottom: 1px;
   }
 
   .cardCon {
@@ -2662,6 +2661,7 @@ html {
     padding-top: 10px;
     padding-left: 5px;
     padding-bottom: 0px;
+    padding-right: 5px;
   }
 
   .flexTextoFtCon {
@@ -2675,7 +2675,7 @@ html {
   }
 
   .flexbotonesCon {
-    margin-top: 4px;
+    margin-top: 3.2px;
     margin-right: 0px;
     gap: 5px;
   }
@@ -2707,9 +2707,10 @@ html {
   }
 
   .divAnclaCon {
-    margin-left: 92px;
-    gap: 12.5px;
-    margin-bottom: 6px;
+    gap: 12.3px;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    margin-right: 6.55px;
   }
 
   .activeCon {
@@ -2717,10 +2718,8 @@ html {
   }
 
   .logoCon {
-    width: 48.7px;
-    height: 48.7px;
-    margin-bottom: 2.3px;
-    margin-left: 30.8px;
+    width: 48.6px;
+    height: 48.3px;
   }
 
   .ftCon {
@@ -2751,11 +2750,12 @@ html {
 @media (min-width: 1024px) {
 
   .gridContacto {
-    grid-template-rows: 6% 91% 15.9%;
+    grid-template-rows: 6% 91% 15.85%;
   }
 
   .navBarCon {
     height: 70px;
+    padding-right: 14px;
   }
 
   .navbar-titleCon {
@@ -2764,9 +2764,8 @@ html {
   }
 
   .divAnclaCon {
-    margin-left: 715px;
-    gap: 15px;  
-    margin-bottom: 7px;
+    gap: 14.5px;  
+    margin-bottom: 6px;
   }
 
   .activeCon {
@@ -2774,8 +2773,8 @@ html {
   }
 
   .logoCon {
-    margin-left: 34px;
     margin-bottom: 1px;
+    margin-left: 28.9px;
     width: 50px;
     height: 50px;
   }
@@ -2806,7 +2805,7 @@ html {
   }
 
   .flexTextoFtCon {
-    margin-top: 14px;
+    margin-top: 15px;
     gap: 28px;
   }
 
@@ -2818,5 +2817,4 @@ html {
     width: 60px;
     height: 40px;
   }
-
 }
